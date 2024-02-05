@@ -206,14 +206,14 @@ font-family: 'Roboto Condensed', sans-serif;
   .navbar .top a{
     padding-right: 6px;
     text-decoration: none;
-    color: #000;
-    font-size: 20px;
+    color: #fff;
+    font-size: 24px;
      font-weight: 400;
+     border-right: #fff 4px solid;
+     border-radius: 4px;
+     background-color: #000;
   }
-  
-
-
-.bottom{ 
+  .bottom{ 
   margin-top: 25px;
   display: block;
   background-color: #fff;
