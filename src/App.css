@@ -1,38 +1,544 @@
-.App {
-  text-align: center;
+button .top-btn-position{
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    color: #333;
+    cursor: pointer;
+    z-index: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media only screen and (max-width: 600px){
+    button .top-btn-position{
+        position: fixed;
+        bottom: 25px;
+        right: 15px;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 1px solid #000;
+        color: #333;
+        cursor: pointer;
+        z-index: 1;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+.orange {
+    color: #ff7a01;
   }
+  
+  .form-container {
+    position: relative;
+    max-width: 700px;
+    margin:0 0 20px  400px;
+    background-color: #001925;
+    padding: 30px;
+    border-left: 5px solid #ff7a01;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+  }
+
+  .form-container .form{
+    margin-top: 100px;
+  }
+  
+  .heading {
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  
+  .form-container .form .input {
+    color: #87a4b6;
+    width: 100%;
+    background-color: #002733;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    border-left: 1px solid transparent;
+  }
+  
+  .form-container .form .input:focus {
+    border-left: 5px solid #ff7a01;
+  }
+  
+  .form-container .form .textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #013747;
+    color: #ff7a01;
+    font-weight: bold;
+    resize: none;
+    max-height: 150px;
+    margin-bottom: 20px ;
+    border-left: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form-container .form .textarea:focus {
+    border-left: 5px solid #ff7a01;
+  }
+  
+  .form-container .form .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .form-container .form .button-container .send-button {
+    flex-basis: 70%;
+    background: #ff7a01;
+    padding: 10px;
+    color: #001925;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form-container .form .button-container .send-button:hover {
+    background: transparent;
+    border: 1px solid #ff7a01;
+    color: #ff7a01;
+  }
+  
+  .form-container .form .button-container .reset-button-container {
+    filter: drop-shadow(1px 1px 0px #ff7a01);
+    flex-basis: 30%;
+  }
+  
+  .form-container .form .button-container .reset-button-container .reset-button {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    color: #ff7a01;
+    font-weight: bold;
+    background: #001925;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form-container .form .button-container .reset-button-container .reset-button:hover {
+    background: #ff7a01;
+    color: #001925;
+  }
+
+  @media only screen and (max-width: 600px){
+    
+.orange {
+    color: #ff7a01;
+  }
+  
+  .form-container {
+    max-width: 700px;
+    margin: 30px;
+    background-color: #001925;
+    padding: 30px;
+    border-left: 5px solid #ff7a01;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+  }
+  .form-container .form{
+    margin-top: 100px;
+  }
+  
+  .heading {
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  
+  .form-container .form .input {
+    color: #87a4b6;
+    width: 100%;
+    background-color: #002733;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    border-left: 1px solid transparent;
+  }
+  
+  .form-container .form .input:focus {
+    border-left: 5px solid #ff7a01;
+  }
+  
+  .form-container .form .textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #013747;
+    color: #ff7a01;
+    font-weight: bold;
+    resize: none;
+    max-height: 150px;
+    margin-bottom: 20px;
+    border-left: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form-container .form .textarea:focus {
+    border-left: 5px solid #ff7a01;
+  }
+  
+  .form-container .form .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .form-container .form .button-container .send-button {
+    flex-basis: 70%;
+    background: #ff7a01;
+    padding: 10px;
+    color: #001925;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form-container .form .button-container .send-button:hover {
+    background: transparent;
+    border: 1px solid #ff7a01;
+    color: #ff7a01;
+  }
+  
+  .form-container .form .button-container .reset-button-container {
+    filter: drop-shadow(1px 1px 0px #ff7a01);
+    flex-basis: 30%;
+  }
+  
+  .form-container .form .button-container .reset-button-container .reset-button {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    color: #ff7a01;
+    font-weight: bold;
+    background: #001925;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form-container .form .button-container .reset-button-container .reset-button:hover {
+    background: #ff7a01;
+    color: #001925;
+  }
+  }
+
+
+
+  @media only screen and (min-width: 610px) and (max-width: 1024px){
+    
+
+.orange {
+  color: #ff7a01;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.form-container {
+  position: relative;
+  max-width: 500px;
+  margin:0 0 20px 20px;
+  background-color: #001925;
+  padding: 30px;
+  border-left: 5px solid #ff7a01;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+
+.form-container .form{
+  margin-top: 100px;
+}
+
+.heading {
+  display: block;
   color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.form-container .form .input {
+  color: #87a4b6;
+  width: 100%;
+  background-color: #002733;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  border-left: 1px solid transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.form-container .form .input:focus {
+  border-left: 5px solid #ff7a01;
+}
+
+.form-container .form .textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #013747;
+  color: #ff7a01;
+  font-weight: bold;
+  resize: none;
+  max-height: 150px;
+  margin-bottom: 20px ;
+  border-left: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-container .form .textarea:focus {
+  border-left: 5px solid #ff7a01;
+}
+
+.form-container .form .button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.form-container .form .button-container .send-button {
+  flex-basis: 70%;
+  background: #ff7a01;
+  padding: 10px;
+  color: #001925;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-container .form .button-container .send-button:hover {
+  background: transparent;
+  border: 1px solid #ff7a01;
+  color: #ff7a01;
+}
+
+.form-container .form .button-container .reset-button-container {
+  filter: drop-shadow(1px 1px 0px #ff7a01);
+  flex-basis: 30%;
+}
+
+.form-container .form .button-container .reset-button-container .reset-button {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  color: #ff7a01;
+  font-weight: bold;
+  background: #001925;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+  transition: all 0.2s ease-in-out;
+}
+
+.form-container .form .button-container .reset-button-container .reset-button:hover {
+  background: #ff7a01;
+  color: #001925;
+}
+
   }
-  to {
-    transform: rotate(360deg);
+
+  .container .my-contacts{
+    display: block;
+    margin: 50px 0 20px 0;
+    text-align: center;
   }
+  .container .my-contacts .whatsapp{
+    margin-top: 14px;
+    padding-top: 10px;
+    width: 270px;
+    height: 80px;
+    background-color: #001925;
+    box-shadow: orange;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+  }
+  .container .my-contacts .whatsapp a{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    
+  }
+  .container .my-contacts .whatsapp a .fa-whatsapp{
+    color: #fff;
+    font-weight: 600;
+    height: 45px;
+    width: 45px;
+    background-color: #14a76c;
+    border-radius: 10px;
+    margin-right: 12px;
+  }
+  .container .my-contacts .instagram{
+    margin-top: 14px;
+    padding-top: 10px;
+    width: 270px;
+    height: 80px;
+    background-color: #001925;
+    box-shadow: orange;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+  }
+.container .my-contacts .instagram a{
+  margin-top: 10px;
+  color: #fff;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.container .my-contacts .instagram a .fa-instagram{
+  color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-right: 10px;
+}
+.container .my-contacts .snapchat{
+  margin-top: 14px;
+  padding-top: 10px;
+  width: 270px;
+  height: 80px;
+  background-color: #001925;
+  box-shadow: orange;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+.container .my-contacts .snapchat a{
+  color: #fff;
+  font-size: 40px;
+  text-decoration: none;
+  
+}
+
+.container .my-contacts .snapchat a .fa-snapchat{
+  color: #fff;
+  font-size: 40px;
+}
+
+.container .my-contacts .landline{
+  color: #222;
+  font-size: 40px;
+    margin-top: 14px;
+    padding-top: 10px;
+    width: 270px;
+    height: 80px;
+    background-color: #001925;
+    box-shadow: orange;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+
+
+@media only screen and (max-width: 600px){
+  .container{
+    margin-top: 50px;
+  }
+
+  .container .my-contacts{
+    display: block;
+    margin: 80px 0 20px 0;
+    text-align: center;
+  }
+
+
+  .container .my-contacts .whatsapp{
+    margin-left: 100px;
+    padding-top: 10px;
+    width: 170px;
+    height: 50px;
+    background-color: #001925;
+    border-left: 4px #ffa500 solid;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+  }
+  .container .my-contacts .whatsapp a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .container .my-contacts .whatsapp a .fa-whatsapp{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    height: 27px;
+    width: 27px;
+    padding-top: 2px;
+    background-color: #14a76c;
+    border-radius: 10px;
+    margin-right: 12px;
+  }
+  .container .my-contacts .instagram{
+    margin-left: 100px;
+    margin-top: 14px;
+    padding-top: 10px;
+    width: 170px;
+    height: 50px;
+    background-color: #001925;
+    border-left: 4px #ffa500 solid;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+  }
+.container .my-contacts .instagram a{
+ 
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.container .my-contacts .instagram a .fa-instagram{
+  color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-right: 10px;
+}
+.container .my-contacts .snapchat{
+  margin-left: 100px;
+  margin-top: 14px;
+  padding-top: 10px;
+  width: 170px;
+  height: 50px;
+  background-color: #001925;
+  border-left: 4px #ffa500 solid;
+
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+}
+.container .my-contacts .snapchat a{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.container .my-contacts .snapchat a .fa-snapchat{
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.container .my-contacts .landline{
+  margin-left: 100px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 14px;
+  padding-top: 10px;
+  width: 170px;
+  height: 50px;
+  background-color: #001925;
+  border-left: 4px #ffa500 solid;
+    
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+}
+
 }
