@@ -14,13 +14,13 @@ const About = () => {
     <div className="about">
         <div className="seat">
 
-      <p><b>The Seat Cafe</b>, is  a speciality cafe founded in 2021 located in Al Heliow-Ajman.
-      With great customer service and professinalism, we have managed to get a rating of 4.6stars on google from our beloved customers. <b>The Seat Cafe</b> serves breakfast, desserts, 
+      <p>We are is  a speciality coffeeshop founded in 2021 located in Al Heliow-Ajman.
+      With great customer service and professinalism, we have managed to get a rating of 4.6stars on google from our beloved customers. At  <b>The Seat Cafe</b> we serve breakfast, desserts, 
       cold and hot beverages made from organic and healthy ingredients prepared with food safety
        and hygiene practices in consideration.
         <br /> <br />
        </p>
-        <h3>FOOD</h3>
+        <h3 className='h3'>FOOD</h3>
     <p>All food and pastry is freshly made by our chefs from the kitchen on premises </p>
        <div className="images">
            <div className="first">
@@ -32,7 +32,7 @@ const About = () => {
            </div>
        </div>
 
-       <h3>COFFEE <i class="fa-solid fa-mug-hot"></i></h3>
+       <h3 className='h3'>COFFEE  <i class="fa-solid fa-mug-hot"></i></h3>
        <p>Our coffee is  brewed from high quality beans from the best origns around the world by
         professional barista.</p> 
         <div className="images">

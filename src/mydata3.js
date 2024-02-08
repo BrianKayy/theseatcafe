@@ -4,8 +4,8 @@ import v from './images/v60cold.jpg';
 import cb from './images/coldB.jpg';
 import v6 from './images/v60h.jpeg';
 import sp from './images/symphony.jpeg';
-import cd from './images/cold.jpeg';
-import cl from './images/clever.jpeg';
+import cd from './images/colddrip.jpeg';
+import cl from './images/kalita.jpeg';
 const FilterC = {
     Filter:[
        {
@@ -52,7 +52,7 @@ const FilterC = {
        },
        {
            id:  '7',
-           name: 'CLEVER DRIPPER',
+           name: 'KALITA ',
            price: '23',
            image: cl,
            details: ''
