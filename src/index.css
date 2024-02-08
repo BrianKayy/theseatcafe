@@ -20,7 +20,6 @@ font-family: 'Roboto Condensed', sans-serif;
   width: 100%;
   display: block;
   background-color: #fff;
-  
 }
 
 .navbar .top{
@@ -59,7 +58,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 .bottom{
-  margin-top: 90px;
+  margin-top: 80px;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -199,8 +198,9 @@ font-family: 'Roboto Condensed', sans-serif;
   }
 
   .navbar .top img{
-    width: 130px;
+    width: 90px;
     height: 60px;
+    
   }
   
   .navbar .top a{
@@ -211,7 +211,7 @@ font-family: 'Roboto Condensed', sans-serif;
      font-weight: 400;
      border-right: #fff 4px solid;
      border-radius: 4px;
-     background-color: #000;
+     background-color: #001925;
   }
   .bottom{ 
   margin-top: 25px;
@@ -595,6 +595,7 @@ font-family: 'Roboto Condensed', sans-serif;
   width: 270px;
   height: 370px;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .bfast .head{
@@ -680,6 +681,7 @@ font-family: 'Roboto Condensed', sans-serif;
   width: 175px;
   height: 200px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .bfast .head{

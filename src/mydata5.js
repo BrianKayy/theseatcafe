@@ -7,6 +7,8 @@ import m from './images/matchaH.jpg';
 import h from './images/hotchoco.jpeg'
 import sh from './images/hotcS.jpeg';
 import e from './images/essprssoh.jpeg';
+import ct from './images/cortado.jpeg';
+import spa from './images/spanish.jpeg';
 const HotCoffe = {
     Hcoffee:[
        {
@@ -41,7 +43,7 @@ const HotCoffe = {
            id:  '5',
            name: 'CORTADO',
            price: '17',
-           image: '',
+           image: ct,
            details: ''
        },
        {
@@ -62,21 +64,21 @@ const HotCoffe = {
         id:  '8',
         name: 'CAPUCCINO',
         price: '17',
-        image: '',
+        image: spa,
         details: ''
     },
     {
         id:  '9',
         name: 'LATTE ',
         price: '17',
-        image: '',
+        image: spa,
         details: ''
     },
     {
         id:  '10',
         name: 'HOT SPANISH LATTE',
         price: '21',
-        image: '',
+        image: spa,
         details: ''
     },
     {
@@ -111,7 +113,7 @@ const HotCoffe = {
         id:  '15',
         name: 'HOT WHITE MOCHA',
         price: '22',
-        image: '',
+        image: spa,
         details: ''
     },
     {
@@ -125,7 +127,7 @@ const HotCoffe = {
         id:  '17',
         name: 'SPANISH CORTADO',
         price: '18',
-        image: '',
+        image: ct,
         details: ''
     },
     

@@ -1,5 +1,6 @@
 import React from 'react';
 import Bfast from './myData';
+// import ImageGallery from './ImageGallery';
 
 
 
@@ -25,7 +26,7 @@ const  Breakfast = () => {
    console.log(fast);
    return( <div className="bfast">
               <div>
-              <img src={fast.image} alt="fast.name" />
+              <img src={fast.image}  alt="fast.name" />
               </div>
               <div className='head'>
                 <h3>{fast.name}</h3>

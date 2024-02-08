@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+
 button .top-btn-position{
     position: fixed;
     bottom: 15px;
@@ -355,10 +358,11 @@ button .top-btn-position{
 
   .container .my-contacts{
     display: block;
-    margin: 50px 0 20px 0;
+    margin: 120px 0 20px 0;
     text-align: center;
   }
   .container .my-contacts .whatsapp{
+    margin-left: 400px;
     margin-top: 14px;
     padding-top: 10px;
     width: 270px;
@@ -383,6 +387,7 @@ button .top-btn-position{
     margin-right: 12px;
   }
   .container .my-contacts .instagram{
+    margin-left: 400px;
     margin-top: 14px;
     padding-top: 10px;
     width: 270px;
@@ -409,6 +414,7 @@ button .top-btn-position{
   margin-right: 10px;
 }
 .container .my-contacts .snapchat{
+  margin-left: 400px;
   margin-top: 14px;
   padding-top: 10px;
   width: 270px;
@@ -430,7 +436,8 @@ button .top-btn-position{
 }
 
 .container .my-contacts .landline{
-  color: #222;
+  margin-left: 400px;
+  color: #fff;
   font-size: 40px;
     margin-top: 14px;
     padding-top: 10px;
@@ -543,4 +550,231 @@ button .top-btn-position{
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
 }
 
+}
+
+.about{
+  margin-top: 120px;
+  display: block;
+  position: relative;
+  margin-left: 10%;
+}
+
+.about .seat{
+  width: 70%;
+  display: block;
+}
+
+.about .seat p{
+  padding-top: 15px;
+  font-size: 25px;
+  color: #444;
+  line-height: 25px;
+}
+
+h3{
+  font-size: 25px;
+  color: #2462c1;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.about .seat p b{
+  color: #2462c1;
+  font-weight: 400;
+}
+
+.about .seat .images{
+  display: block;
+  width: 100%;
+}
+
+.about .seat .images .first{
+  display: flex;
+}
+
+.about .seat .images .first .b{
+  width: 750px;
+  height: 650px;
+}
+
+.about .seat .images .first .s{
+  width: 450px;
+  height: 650px;
+  padding-left: 10px
+}
+
+.about .seat .images .last img{
+  width: 100%;
+  height: 650px;
+  padding-top: 10px
+}
+
+.about .seat p a{
+  text-decoration: #2462c1;
+  color: #2462c1;
+  font-size: 25px;
+  
+}
+
+.operating-hrs{
+  display: block;
+  margin: 20px 0;
+  margin-left: 20%;
+
+}
+.operating-hrs h3{
+  text-decoration: underline #001925 5px;
+  font-size: 25px;
+  color: #2462c1;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.operating-hrs ul li{
+  display: block;
+  list-style-type: none;
+  color: #444;
+  padding-top: 3px;
+  font-size: 20px;
+}
+
+.operating-hrs ul li .fa-solid{
+  color: #87a4b6;
+}
+ 
+.about .location{
+  display: block;
+  margin-left: 20%;
+}
+
+.about .location h2{
+  text-decoration: underline #001925 5px;
+  font-size: 25px;
+  color: #2462c1;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.about .location .gmap{
+  display: block;
+}
+
+.about .location .small{
+  display: none;
+}
+
+@media only screen and (max-width: 600px){
+  
+.about{
+  margin-top: 80px;
+  display: block;
+  position: relative;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.about .seat{
+  width: 100%;
+  display: block;
+}
+
+.about .seat p{
+  padding-top: 10px;
+  font-size: 20px;
+  color: #444;
+  line-height: 20px;
+}
+
+h3{
+  font-size: 24px;
+  color: #2462c1;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.about .seat p b{
+  color: #001925;
+  font-weight: 600;
+}
+
+.about .seat .images{
+  margin: 25px 0;
+  display: block;
+  width: 100%;
+}
+
+.about .seat .images .first{
+  display: flex;
+}
+
+.about .seat .images .first .b{
+  width: 250px;
+  height: 200px;
+}
+
+.about .seat .images .first .s{
+  width: 150px;
+  height: 200px;
+  padding-left: 2px
+}
+
+.about .seat .images .last img{
+  width: 100%;
+  height: 250px;
+  padding-top: 2px
+}
+
+.about .seat p a{
+  text-decoration: underline #2462c1;
+  color: #2462c1;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.operating-hrs{
+  display: block;
+  margin: 20px 0;
+  margin-left: 40px;
+}
+.operating-hrs h3{
+  text-decoration: underline #001925 5px;
+  font-size: 20px;
+  color: #2462c1;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.operating-hrs ul li{
+  display: block;
+  list-style-type: none;
+  color: #444;
+  padding-top: 3px;
+  font-size: 20px;
+}
+
+.operating-hrs ul li .fa-solid{
+  color: #87a4b6;
+}
+ 
+.about .location{
+  display: block;
+  margin-left: 5px;
+}
+
+.about .location h2{
+  text-decoration: underline #001925 5px;
+  font-size: 20px;
+  color: #2462c1;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.about .location .gmap{
+  display: none;
+}
+
+.about .location .small{
+  display: block;
+}
 }

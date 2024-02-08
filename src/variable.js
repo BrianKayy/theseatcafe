@@ -10,20 +10,19 @@ import Coldcoffee from './Coldcof';
 import Cdrink from './CDrinks';
 
 
+const {BreakFast} = Bfast;
+const {Coldc} = Coldcoffee;
+const {Colddrink} = Cdrink;
+const {Desert} = Dessert;
+const {Filter} = FilterC;
+const {Frap}   = Frapp;
+const {Hcoffee} = HotCoffe;
+const {juice} = Juic;
+const {TeA} = T;
+const {SummerSpecials} = Summer;
 
+const myVariables = {BreakFast, Coldc, Colddrink, Desert, Filter, Frap, Hcoffee, juice, TeA, SummerSpecials };
 
-
-
-
-
-
-// const {BreakFast} = Bfast;
-// const {Coldc} = Coldcoffee;
-// const {Colddrink} = Cdrink;
-// const {Desert} = Dessert;
-// const {Filter} = FilterC;
-// const {Frap}   = Frapp;
-// const {Hcoffee} = HotCoffe;
-// const {juice} = Juic;
-// const {TeA} = T;
-// const {SummerSpecials} = Summer;
+const variables = ()=>{
+    
+}

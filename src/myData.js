@@ -17,7 +17,7 @@ import cp from './images/pistachioC.jpeg';
 import ms from './images/mushroom.jpg';
 import mp from './images/mag.jpg';
 import pp from './images/pepperoni.jpg';
-
+import ff from './images/fries.jpeg';
 const Bfast = {
      BreakFast:[
         {
@@ -101,7 +101,7 @@ const Bfast = {
             id:  '12',
             name: 'FRIES',
             price: '15',
-            image: '',
+            image: ff,
             details: ''
         },
         {
