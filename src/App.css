@@ -683,7 +683,7 @@ button .top-btn-position{
   padding-top: 10px;
   font-size: 20px;
   color: #444;
-  line-height: 20px;
+  line-height: 24px;
 }
 
 .h3{
@@ -692,6 +692,7 @@ button .top-btn-position{
   font-weight: 400;
   margin-bottom: 10px;
   margin-left: 20px;
+  text-decoration: underline 5px #001925;
 }
 
 .about .seat p b{
@@ -715,7 +716,7 @@ button .top-btn-position{
 }
 
 .about .seat .images .first .s{
-  width: 150px;
+  width: 100%;
   height: 200px;
   padding-left: 2px
 }
@@ -744,6 +745,7 @@ button .top-btn-position{
   color: #2462c1;
   font-weight: 400;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 .operating-hrs ul li{
@@ -769,6 +771,7 @@ button .top-btn-position{
   color: #2462c1;
   font-weight: 400;
   margin-bottom: 10px;
+  margin-left: 50px;
 }
 .about .location .gmap{
   display: none;
