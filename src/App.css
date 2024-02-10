@@ -538,16 +538,17 @@ button .top-btn-position{
 
 .container .my-contacts .landline{
   margin-left: 100px;
-  color: #fff;
-  font-size: 20px;
   margin-top: 14px;
-  padding-top: 10px;
   width: 170px;
   height: 50px;
   background-color: #001925;
   border-left: 4px #ffa500 solid;
-    
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+}
+.container .my-contacts .landline a{
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
 }
@@ -578,6 +579,7 @@ button .top-btn-position{
   margin-bottom: 10px;
   margin-left: 20px;
   margin-top: 30px;
+  text-decoration: solid #001925 7px !important;
 }
 
 .about .seat p b{
@@ -625,7 +627,7 @@ button .top-btn-position{
 
 }
 .operating-hrs h3{
-  text-decoration: underline #001925 5px;
+  text-decoration: underline #001925 5px !important;
   font-size: 25px;
   color: #2462c1;
   font-weight: 400;
@@ -650,7 +652,7 @@ button .top-btn-position{
 }
 
 .about .location h2{
-  text-decoration: underline #001925 5px;
+  text-decoration: underline #001925 5px !important;
   font-size: 25px;
   color: #2462c1;
   font-weight: 400;
@@ -667,11 +669,10 @@ button .top-btn-position{
 @media only screen and (max-width: 600px){
   
 .about{
-  margin-top: 80px;
+  margin: 80px 8px 0 8px;
   display: block;
   position: relative;
-  margin-left: 2px;
-  margin-right: 2px;
+  
 }
 
 .about .seat{
@@ -681,18 +682,18 @@ button .top-btn-position{
 
 .about .seat p{
   padding-top: 10px;
-  font-size: 20px;
+  font-size: 21px;
   color: #444;
-  line-height: 24px;
+  line-height: 25px;
 }
 
 .h3{
-  font-size: 24px;
+  font-size: 25px;
   color: #2462c1;
   font-weight: 400;
   margin-bottom: 10px;
   margin-left: 20px;
-  text-decoration: underline 5px #001925;
+  text-decoration: underline 5px #001925 !important;
 }
 
 .about .seat p b{
@@ -711,24 +712,24 @@ button .top-btn-position{
 }
 
 .about .seat .images .first .b{
-  width: 250px;
+  width: 200px;
   height: 230px;
 }
 
 .about .seat .images .first .s{
-  width: 150PX;
+  width: 120PX;
   height: 230px;
   padding-left: 2px
 }
 
 .about .seat .images .last img{
-  width: 100%;
+  width: 320px;
   height: 250px;
   padding-top: 2px
 }
 
 .about .seat p a{
-  text-decoration: underline #2462c1;
+  text-decoration: underline #2462c1 !important;
   color: #2462c1;
   font-size: 20px;
   font-weight: bold;
@@ -740,7 +741,7 @@ button .top-btn-position{
   margin-left: 40px;
 }
 .operating-hrs h3{
-  text-decoration: underline #001925 5px;
+  text-decoration: underline #001925 5px!important;
   font-size: 20px;
   color: #2462c1;
   font-weight: 400;
@@ -762,11 +763,11 @@ button .top-btn-position{
  
 .about .location{
   display: block;
-  margin-left: 5px;
+  margin: 0;
 }
 
 .about .location h2{
-  text-decoration: underline #001925 5px;
+  text-decoration: underline #001925 5px!important;
   font-size: 20px;
   color: #2462c1;
   font-weight: 400;
@@ -778,6 +779,7 @@ button .top-btn-position{
 }
 
 .about .location .small{
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import logo from './images/logo2.jpg';
+import { NavLink } from 'react-router-dom';
+import logo from './images/logo.jpg';
 
 
 const Navbar = () => {
@@ -9,9 +9,9 @@ const Navbar = () => {
         <div className="top">
             <img src={logo} alt="" />
             <div className="links">
-            <Link to='/'>Menu</Link>
-            <Link to="/About">About</Link>
-            <Link to="/Contact">Contact</Link>
+            <NavLink to='/'>Menu</NavLink>
+            <NavLink to="/About">About</NavLink>
+            <NavLink to="/Contact">Contact</NavLink>
             </div>
            
         </div>

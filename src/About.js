@@ -5,7 +5,9 @@ import S from './images/croi.jpeg';
 import Sb from './images/chef2.jpeg';
 import b1 from './images/brew1.jpeg';
 import b2 from './images/brew2.jpeg';
-import b3 from './images/brew3.jpeg';
+import b3 from './images/ph1.jpeg';
+import b from './images/combination.jpeg';
+import c from './images/mojitoB.jpeg';
 import './App.css';
 
 const About = () => {
@@ -14,7 +16,7 @@ const About = () => {
     <div className="about">
         <div className="seat">
           <h3 className='h3'>ABOUT THE SEAT CAFE</h3>
-      <p>We are is  a speciality coffeeshop founded in 2021 located in Al Heliow-Ajman.
+      <p>We're   a speciality coffeeshop established in 2021 located in Al Heliow-Ajman.
       With great customer service and professinalism, we have managed to get a rating of 4.6stars on google from our beloved customers. At  <b>The Seat Cafe</b> we serve breakfast, desserts, 
       cold and hot beverages made from organic and healthy ingredients prepared with food safety
        and hygiene practices in consideration.
@@ -47,9 +49,13 @@ const About = () => {
        <p><b>The Seat Cafe</b> also provides services on events and functions for example
         weddings, birthdays, company celebrations, get-togethers. We also make bulk take away
         orders for big groups , to know more please <Link to="tel:065292029">contact us</Link>. </p>
-          
+        <div className="images">
+           <div className="first">
+            <img src={b} className='b' alt="" />
+            <img src={c} className='s' alt="" />
+           </div>
         </div>
-
+       </div>
         <div className="operating-hrs">
           <h3>OUR SERVICES</h3>
            <ul>
@@ -73,12 +79,12 @@ const About = () => {
         </div>
         
             <div className='location'>
-              <h2>OUR LOCATION</h2>
+              <h2> LOCATION</h2>
             <div className="gmap" >
             <iframe width="700" height="550" title='big device' frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=300&amp;height=200&amp;hl=en&amp;q=CJ2C+CF2%20-%20Al%20Heliow%20-%20Ajman+(the%20seat%20cafe)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe>
             </div>
             <div className="small">
-            <iframe width="350" height="280" title='small device' frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=300&amp;height=200&amp;hl=en&amp;q=CJ2C+CF2%20-%20Al%20Heliow%20-%20Ajman+(the%20seat%20cafe)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe>
+            <iframe width="100%" height="280" title='small device' frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=300&amp;height=200&amp;hl=en&amp;q=CJ2C+CF2%20-%20Al%20Heliow%20-%20Ajman+(the%20seat%20cafe)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe>
             </div>
             </div>
     </div>

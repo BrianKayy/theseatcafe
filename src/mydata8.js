@@ -1,5 +1,7 @@
 import s from './images/spanishSummer.jpg';
 import m from './images/mojitoB.jpeg';
+import a from './images/acai box.jpeg';
+import c from './images/coffe-box.jpeg';
 const Summer= {
     SummerSpecials:[
        {
@@ -20,7 +22,7 @@ const Summer= {
            id:  '3',
            name: 'SUMMER COFFEE BOX ',
            price: '95',
-           image: '',
+           image: c,
            details: ''
        },
        {
@@ -34,7 +36,7 @@ const Summer= {
         id:  '4',
         name: 'SUMMER ACAI BOX',
         price: '85',
-        image: '',
+        image: a,
         details: '6 pieces'
     },
      

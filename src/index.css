@@ -139,11 +139,13 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 .navbar .bottom  ul li:active{
   color: #fff;
-  background-color: #0c764c;
+  background-color: #2975c1;
+  border: 2px solid  #fff;
 }
 .navbar .bottom  ul li:hover{
   color: #fff;
-  background-color: #0c764c;
+  background-color: #2975c1;
+  border: 2px solid  #fff;
 }
 
 @-webkit-keyframes tracking-in-expand {
@@ -198,20 +200,24 @@ font-family: 'Roboto Condensed', sans-serif;
   }
 
   .navbar .top img{
-    width: 90px;
+    width: 120px;
     height: 60px;
-    
   }
   
   .navbar .top a{
     padding-right: 6px;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-size: 22px;
      font-weight: 400;
-     border-right: #fff 4px solid;
-     border-radius: 4px;
-     background-color: #001925;
+     height: 35px;
+     
+  }
+  .navbar .top a.active{
+    background-color: #2975c1;
+    color: #fff;
+    border: 2px double #fff;
+    border-radius: 10px;
   }
   .bottom{ 
   margin-top: 25px;

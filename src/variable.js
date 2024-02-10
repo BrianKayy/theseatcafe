@@ -23,6 +23,4 @@ const {SummerSpecials} = Summer;
 
 const myVariables = {BreakFast, Coldc, Colddrink, Desert, Filter, Frap, Hcoffee, juice, TeA, SummerSpecials };
 
-const variables = ()=>{
-    
-}
+ export default myVariables;

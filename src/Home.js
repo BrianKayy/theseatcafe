@@ -12,6 +12,9 @@ import New from './New';
 import Tea from './Tea'
 import Frappe from './Frappe'
 import ScrolltoTop from './ScrolltoTop';
+// import myVariables from './variable';
+
+
 
 const Home = () => {
   const  breakfast = useRef(null);
@@ -24,15 +27,18 @@ const Home = () => {
   const  tea = useRef(null);
   const  summer = useRef(null);
   const  drinks = useRef(null);
-
+ 
   const scrollToSection = (elementRef)=>{
     window.scrollTo({
       top: elementRef.current.offsetTop,
       behavior: 'smooth'
     })
   }
-   
+  //  const [value, setValue] = useState;
+  //  const onchange =(e)=>{
+  //   setValue(e.target.value)
 
+  //  }
 
 
 
