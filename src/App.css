@@ -692,7 +692,6 @@ button .top-btn-position{
   color: #2462c1;
   font-weight: 400;
   margin-bottom: 10px;
-  margin-left: 20px;
   text-decoration: underline 5px #001925 !important;
 }
 
@@ -712,18 +711,18 @@ button .top-btn-position{
 }
 
 .about .seat .images .first .b{
-  width: 200px;
+  width: 220px;
   height: 230px;
 }
 
 .about .seat .images .first .s{
-  width: 120PX;
+  width: 130PX;
   height: 230px;
   padding-left: 2px
 }
 
 .about .seat .images .last img{
-  width: 320px;
+  width: 350px;
   height: 250px;
   padding-top: 2px
 }
@@ -738,7 +737,6 @@ button .top-btn-position{
 .operating-hrs{
   display: block;
   margin: 20px 0;
-  margin-left: 40px;
 }
 .operating-hrs h3{
   text-decoration: underline #001925 5px!important;
@@ -746,7 +744,6 @@ button .top-btn-position{
   color: #2462c1;
   font-weight: 400;
   margin-bottom: 10px;
-  margin-left: 20px;
 }
 
 .operating-hrs ul li{
@@ -772,7 +769,6 @@ button .top-btn-position{
   color: #2462c1;
   font-weight: 400;
   margin-bottom: 10px;
-  margin-left: 50px;
 }
 .about .location .gmap{
   display: none;
