@@ -528,7 +528,7 @@ font-family: 'Roboto Condensed', sans-serif;
   padding-top: 10px; 
   display: block;
   flex-basis: 25%;
-
+ 
 }
 
 .bfast img{
@@ -551,7 +551,7 @@ font-family: 'Roboto Condensed', sans-serif;
 .bfast h5{
   padding-left: 10px;
   font-size: 20px;
-  color: #05386b;
+  color: #2975c1;
 }
  .bfast .detail{
   width: 300px;
@@ -618,7 +618,7 @@ font-family: 'Roboto Condensed', sans-serif;
 .bfast h5{
   padding-left: 2px;
   font-size: 17px;
-  color: #05386b;
+  color: #2975c1;
 }
  .bfast .detail{
   width: 300px;
@@ -673,6 +673,7 @@ font-family: 'Roboto Condensed', sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content:flex-start;
+ 
 }
 
 .bfast{
@@ -681,6 +682,9 @@ font-family: 'Roboto Condensed', sans-serif;
   display: block;
   flex-basis: 50%;
   height: auto;
+  border-bottom: solid 1px #999;
+  border-radius: 15px;
+
 }
 
 .bfast img{
@@ -701,7 +705,7 @@ font-family: 'Roboto Condensed', sans-serif;
 .bfast h5{
   padding-top: 5px;
   font-size: 16px;
-  color: #05386b;
+  color: #2975c1;
 }
  .bfast .detail{
   width: 140px;
@@ -711,7 +715,12 @@ font-family: 'Roboto Condensed', sans-serif;
 
  }
 
- .footer{
+ .my-footer{
+  display: block;
+  background-color: #000;
+ }
+
+ .my-footer .footer{
   display: flex;
   background-color: #000;
   justify-content: center;
@@ -723,15 +732,27 @@ font-family: 'Roboto Condensed', sans-serif;
   bottom: 0;
 }
 
-.footer img{
+.my-footer .footer img{
   width: 250px;
   height: 100px;
   border-radius: 15px;
 }
 
+.my-footer .h6{
+  text-align: center;
+  font-size: 8px;
+  color: #999;
+}
+
+.my-footer p{
+  text-align: center;
+  font-size: 8px;
+  color: #999;
+}
 
  @media only screen and (max-width: 600px){
-  .footer{
+
+  .my-footer .footer{
     display: flex;
     background-color: #000;
     justify-content: center;
@@ -741,10 +762,21 @@ font-family: 'Roboto Condensed', sans-serif;
     bottom: 0;
   }
   
-  .footer img{
+  .my-footer  .footer img{
     width: 100px;
     height: 50px;
     border-radius: 12px;
+  }
+  .my-footer .h6{
+    text-align: center;
+    font-size: 7px;
+    color: #999;
+  }
+  
+  .my-footer p{
+    text-align: center;
+    font-size: 7px;
+    color: #999;
   }
  }
 

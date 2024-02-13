@@ -9,6 +9,7 @@ import sh from './images/hotcS.jpeg';
 import e from './images/essprssoh.jpeg';
 import ct from './images/cortado.jpeg';
 import spa from './images/spanish.jpeg';
+import mc from './images/machiato.jpeg';
 const HotCoffe = {
     Hcoffee:[
        {
@@ -29,7 +30,7 @@ const HotCoffe = {
            id:  '3',
            name: 'MACHIATTO',
            price: '16',
-           image: '',
+           image: mc,
            details: ''
        },
        {
@@ -120,7 +121,7 @@ const HotCoffe = {
         id:  '16',
         name: 'HOT MOCHA ',
         price: '22',
-        image: '',
+        image: spa,
         details: ''
     },
     {

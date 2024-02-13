@@ -8,11 +8,11 @@ import { Link } from 'react-router-dom';
     <div className="container"> 
    
          <div className="my-contacts">
-         <h3 className='h3'>contact us through;</h3>
+         <h3 className='h3'>Get to us through</h3>
       <div className="whatsapp">  <Link to="https://wa.me/971501291451"><i class="fa-brands fa-whatsapp"></i>whatsapp</Link> </div>
       <div className="instagram">  <Link to="https://www.instagram.com/theseatcafe.ae"> <i class="fa-brands fa-instagram"></i> instagram</Link> </div>
       <div className="snapchat">  <Link><i class="fa-brands fa-snapchat"></i>snapchat</Link></div>
-      <div className="landline"><Link to="tel:065292029">call us</Link></div>
+      <div className="landline"><Link to="tel:065292029">065292029</Link></div>
        </div>
     <div className="form-container">
     <div className="form">

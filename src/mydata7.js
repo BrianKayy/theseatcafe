@@ -1,7 +1,8 @@
 import c from './images/camomile.jpeg';
 import e from './images/englishT.jpeg';
 import l from './images/lemonG.jpeg';
-
+import o from  './images/organic.jpeg';
+import b from './images/breakfast.jpeg';
 
 const T= {
     TeA:[
@@ -38,14 +39,14 @@ const T= {
         id:  '4',
         name: 'ORGANIC BREAKFAST TEA',
         price: '17',
-        image: '',
+        image: b,
         details: ''
     },
     {
         id:  '5',
         name: 'ORGANIC GREEN TEA',
         price: '17',
-        image: '',
+        image: o,
         details: ''
     },
      
