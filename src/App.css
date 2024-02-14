@@ -604,7 +604,7 @@ button .top-btn-position{
 .about .seat .images .first .s{
   width: 100%;
   height: 650px;
-  padding-left: 10px
+  padding-left: 10px;
 }
 
 .about .seat .images .last img{
@@ -623,7 +623,7 @@ button .top-btn-position{
 .operating-hrs{
   display: block;
   margin: 20px 0;
-  margin-left: 20%;
+  margin: 0 15% 0 10%;
 
 }
 .operating-hrs h3{
@@ -686,7 +686,149 @@ button .top-btn-position{
   width: 100%;
   padding: 15px 5px;
 }
+@media only screen and (min-width: 610px) and (max-width: 1024px){
+  
+.about{
+  margin-top: 120px;
+  display: block;
+  position: relative;
+  margin-left: 5%;
+}
 
+.about .seat{
+  width: 100%;
+  display: block;
+}
+
+.about .seat p{
+  padding-top: 15px;
+  font-size: 25px;
+  color: #444;
+  line-height: 25px;
+}
+
+.h3{
+  font-size: 35px;
+  color: #222;
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: solid #001925 7px !important;
+}
+
+.about .seat p b{
+  color: #2462c1;
+  font-weight: 400;
+}
+
+.about .seat .images{
+  display: block;
+  width: 100%;
+}
+
+.about .seat .images .first{
+  display: flex;
+}
+
+.about .seat .images .first .b{
+  width: 280px;
+  height: 450px;
+}
+
+.about .seat .images .first .s{
+  width: 100%;
+  height: 450px;
+  padding-left: 10px;
+}
+
+.about .seat .images .last img{
+  width: 100%;
+  height: 450px;
+  padding-top: 10px
+}
+.about .seat .images .new{
+  display: flex;
+  justify-content: center;
+}
+.about .seat .images .new img{
+  width: 500px;
+  height: 600px;
+}
+.about .seat p a{
+  text-decoration: #2462c1;
+  color: #2462c1;
+  font-size: 25px;
+  
+}
+
+.operating-hrs{
+  display: block;
+  margin: 20px 0;
+  margin-left: 20%;
+
+}
+.operating-hrs h3{
+  text-decoration: underline #001925 5px !important;
+  font-size: 25px;
+  color: #2462c1;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.operating-hrs ul li{
+  display: block;
+  list-style-type: none;
+  color: #444;
+  padding-top: 3px;
+  font-size: 20px;
+}
+
+.operating-hrs ul li .fa-solid{
+  color: #87a4b6;
+}
+ 
+.about .location{
+  display: block;
+  margin: 0 4%;
+}
+
+.about .location h2{
+  text-decoration: underline #001925 5px !important;
+  font-size: 25px;
+  color: #2462c1;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.about .location .gmap{
+  display: none;
+}
+
+.about .location .small{
+  display: block;
+}
+
+.abt{
+  background-color: #f3cbad;
+  height: max-content;
+  width: 100%;
+  padding: 15px;
+}
+.abt2{
+  margin-top: 30px;
+  background-color: #97aabd;
+  height: max-content;
+  width: 100%;
+  padding: 15px;
+}
+.abt3{
+  margin-top: 30px;
+  background-color: #f0db95;
+  height: max-content;
+  width: 100%;
+  padding: 15px 5px;
+}
+}
 @media only screen and (max-width: 600px){
   
 .about{
@@ -702,7 +844,7 @@ button .top-btn-position{
 }
 
 .about .seat p{
-  padding: 10px 15px 0 15px;
+  padding: 10px 25px 0 25px;
   font-size: 23px;
   color: #222;
   line-height: 28px;
@@ -710,7 +852,7 @@ button .top-btn-position{
 }
 
 .h3{
-  font-size: 34px;
+  font-size: 30px;
   color: #222;
   font-weight: 400;
   margin-bottom: 10px;
@@ -733,22 +875,31 @@ button .top-btn-position{
 }
 
 .about .seat .images .first .b{
-  width: 190px;
-  height: 230px;
+  width: 160px;
+  height: 250px;
 }
 
 .about .seat .images .first .s{
   width: 100%;
-  height: 230px;
-  padding-left: 2px
+  height: 250px;
+  padding-left: 2px;
+  padding-right: 8px;
 }
 
 .about .seat .images .last img{
   width: 100%;
-  height: 250px;
+  height: 340px;
   padding-top: 2px
 }
+.about .seat .images .new{
+  display: flex;
+  justify-content: center;
+}
 
+.about .seat .images .new img{
+  width: 330px;
+  height: 400px;
+}
 .about .seat p a{
   text-decoration: underline #2462c1 !important;
   color: #2462c1;
@@ -809,7 +960,7 @@ button .top-btn-position{
   padding: 15px 0;
 }
 .abt2{
-  margin-top: 30px;
+  margin-top: 30px ;
   background-color: #97aabd;
   height: max-content;
   width: 100%;

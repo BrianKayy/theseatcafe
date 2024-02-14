@@ -6,7 +6,7 @@ import Sb from './images/chef2.jpeg';
 import b1 from './images/brew1.jpeg';
 import b2 from './images/brew2.jpeg';
 import b3 from './images/ph1.jpeg';
-import c from './images/mojitoB.jpeg';
+import c from './images/combination.jpeg';    
 import './App.css';
 
 const About = () => {
@@ -67,7 +67,7 @@ const About = () => {
         weddings, birthdays, company celebrations, get-togethers. We also make bulk take-away
         orders for big groups , to know more please <Link to="tel:065292029">contact us</Link>. </p>
         <div className="images">
-           <div className="last">
+           <div className="new">
             <img src={c}  alt="" />
            </div>
         </div>

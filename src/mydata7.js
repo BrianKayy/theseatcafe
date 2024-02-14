@@ -1,7 +1,7 @@
 import c from './images/camomile.jpeg';
 import e from './images/englishT.jpeg';
 import l from './images/lemonG.jpeg';
-import o from  './images/organic.jpeg';
+import o from  './images/englishtea.jpeg';
 import b from './images/breakfast.jpeg';
 
 const T= {
@@ -22,7 +22,7 @@ const T= {
        },
        {
         id:  '2',
-        name: 'ORGANIC  ENGLISH  BREAKFAST',
+        name: 'ORGANIC ENGLISH BREAKFAST',
         price: '17',
         image: e,
         details: ''
@@ -37,7 +37,7 @@ const T= {
 
        {
         id:  '4',
-        name: 'ORGANIC BREAKFAST TEA',
+        name: 'ENGLISH BREAKFAST TEA',
         price: '17',
         image: b,
         details: ''

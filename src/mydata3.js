@@ -1,4 +1,4 @@
-import c from './images/chemex.jpg';
+import c from './images/chemex.jpeg';
 import a from './images/aeroP.jpg';
 import v from './images/v60cold.jpg';
 import cb from './images/coldB.jpg';

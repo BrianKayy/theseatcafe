@@ -682,9 +682,8 @@ font-family: 'Roboto Condensed', sans-serif;
   display: block;
   flex-basis: 50%;
   height: auto;
-  border-bottom: solid 1px #999;
-  border-radius: 15px;
-
+  border-bottom: solid 2px #999;
+  border-spacing: 5px;
 }
 
 .bfast img{
