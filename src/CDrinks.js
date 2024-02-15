@@ -22,21 +22,21 @@ const Cdrink = {
        {
            id:  '3',
            name: 'COLA',
-           price: '3',
+           price: '5',
            image: c,
            details: ''
        },
        {
            id:  '4',
            name: '7Up',
-           price: '3',
+           price: '5',
            image: u,
            details: ''
        },
        {
            id:  '5',
            name: 'PEPSI',
-           price: '3',
+           price: '5',
            image: p,
            details: ''
        },
