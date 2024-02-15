@@ -28,7 +28,7 @@ class FullscreenImage extends React.Component {
           src={src}
           alt={alt}
           onClick={this.toggleFullscreen}
-          style={{ cursor: 'pointer' }}
+        //   style={{ cursor: 'pointer' }}
         />
       </div>
     );
