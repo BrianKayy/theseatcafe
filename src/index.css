@@ -79,6 +79,7 @@ font-family: 'Roboto Condensed', sans-serif;
  }
  
  .group input {
+  display: none;
   width: 100%;
   height: 60px;
   line-height: 25px;
@@ -97,6 +98,7 @@ font-family: 'Roboto Condensed', sans-serif;
  }
  
  .input:focus, input:hover {
+  display: none;
   outline: none;
   border-color: rgba(234,76,137,0.4);
   background-color: #fff;
@@ -104,6 +106,7 @@ font-family: 'Roboto Condensed', sans-serif;
  }
  
  .icon {
+  display: none;
   position: absolute;
   left: 1rem;
   fill: #9e9ea7;
@@ -201,7 +204,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
   .navbar .top img{
     width: 120px;
-    height: 60px;
+    height: 50px;
   }
   
   .navbar .top a{
@@ -220,13 +223,14 @@ font-family: 'Roboto Condensed', sans-serif;
     border-radius: 10px;
   }
   .bottom{ 
-  margin-top: 25px;
+  margin-top: 30px;
   display: block;
   background-color: #fff;
   position: fixed;
   z-index: 1;
 }
 .bottom .group {
+  display: none;
   background-color: white;
   display: flex;
   padding-top: 10px;
@@ -239,6 +243,7 @@ font-family: 'Roboto Condensed', sans-serif;
  }
  
  .group input {
+  display: none;
   font-size: 16px;
   width: 250px;
   height: 30px;
@@ -254,6 +259,7 @@ font-family: 'Roboto Condensed', sans-serif;
  }
  
  .input::placeholder {
+
   color: #9e9ea7;
  }
  
@@ -265,6 +271,7 @@ font-family: 'Roboto Condensed', sans-serif;
  }
  
  .icon {
+  display: none;
   position: absolute;
   left: 1rem;
   fill: #9e9ea7;
@@ -277,6 +284,8 @@ font-family: 'Roboto Condensed', sans-serif;
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+  align-items: center;
+  align-content: center;
 }
 .navbar .bottom ul::-webkit-scrollbar{
   width: 0;
@@ -291,7 +300,7 @@ font-family: 'Roboto Condensed', sans-serif;
   margin: 0 2px;
   width: fit-content;
   font-weight: 400px;
-  font-size: 15px;
+  font-size: 17px;
   border: 1px solid #777;
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -631,7 +640,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
   .new-class{
     position: relative;
-    margin-top: 110px;
+    margin-top: 80px;
   }
   
 .big{
@@ -678,12 +687,14 @@ font-family: 'Roboto Condensed', sans-serif;
 
 .bfast{
   width: 180px;
-  padding-top: 10px; 
+  margin-top: 10px; 
   display: block;
   flex-basis: 50%;
   height: auto;
-  border-bottom: solid 2px #999;
-  border-spacing: 5px;
+  /* border-bottom: solid 2px #999;
+  border-right: solid 2px #999;
+  border-radius: 15px;
+  border-spacing: 3px; */
 }
 
 .bfast img{
@@ -743,10 +754,10 @@ font-family: 'Roboto Condensed', sans-serif;
   color: #999;
 }
 
-.my-footer p{
+.my-footer a{
   text-align: center;
   font-size: 8px;
-  color: #999;
+  color: #2975c1;
 }
 
  @media only screen and (max-width: 600px){
@@ -772,10 +783,11 @@ font-family: 'Roboto Condensed', sans-serif;
     color: #999;
   }
   
-  .my-footer p{
+  .my-footer a{
+    display: flex;
     text-align: center;
     font-size: 7px;
-    color: #999;
+    color: #2975c1;
   }
  }
 

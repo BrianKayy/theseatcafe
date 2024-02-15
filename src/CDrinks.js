@@ -2,7 +2,7 @@ import w from './images/sparkling.jpeg';
 import v from './images/voss.jpeg';
 import c from './images/cola.jpeg';
 import p from './images/pepsi.jpeg';
-import u from './images/7up.jpg';
+import u from './images/7up.jpeg';
 const Cdrink = {
     Colddrink:[
        {

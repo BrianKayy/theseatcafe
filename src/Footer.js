@@ -10,7 +10,7 @@ const Footer = () => {
          <Link  to="/"> <img src={logo} alt="" /> </Link> 
           </div>
       <div className="h6">Copyright @2024 TheSeatCafe all rights reserved</div>
-         <p>devloped by BrianKay</p>
+         <Link to="tel: 0582551269"> Developed by Brian</Link>
     </div>
    
   )

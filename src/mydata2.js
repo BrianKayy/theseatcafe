@@ -10,7 +10,7 @@ import d from './images/datec.jpg';
 import pm from './images/pava-medium.jpg'
 import pl from './images/pavaL.jpg'
 import sc from './images/Smores cho.jpeg';
-<image></image>
+import sp from './images/sensebastian.jpg';
 const Dessert = {
     Desert:[
        {
@@ -76,6 +76,13 @@ const Dessert = {
            image: se,
            details: ''
        },
+       {
+        id:  '3',
+        name: 'SEN SEBASTIAN PISTACHIO',
+        price: '26',
+        image: sp,
+        details: ''
+    },
        {
         id:  '8',
         name: "S'MORES CHOCOLATE",
