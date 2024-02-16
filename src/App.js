@@ -4,15 +4,13 @@ import Navbar from './Navbar';
 import Home from "./Home";
 import Contact from "./Contact";
 import About from './About';
-
-// import About from './About'
-
+// import PreLoader from "./PreLoader";
  import Footer from "./Footer";
 
 function App() {
 
   return (
-     <Router>
+        <Router>
         <div className="App">
             <Navbar/>
              <Routes>
@@ -22,9 +20,7 @@ function App() {
              </Routes>
               <Footer/>
         </div>
-  
      </Router>
-     
   );
 }
 
