@@ -199,10 +199,11 @@ font-family: 'Roboto Condensed', sans-serif;
   align-items: center;
   align-content: center;
   margin: 0;
-  height: 80px;
+  height: 65px;
 }
 .nav .bottom .new::-webkit-scrollbar{
   width: 0;
+  height: 0;
 }
 
 .nav .bottom .new a{
