@@ -169,7 +169,7 @@ font-family: 'Roboto Condensed', sans-serif;
     padding-right: 4px;
     text-decoration: none;
     color: #ebebeb;
-    font-size: 20px;
+    font-size: 22px;
      font-weight: 900;
      height: 35px;
      
@@ -199,6 +199,7 @@ font-family: 'Roboto Condensed', sans-serif;
   align-items: center;
   align-content: center;
   margin: 0;
+  height: 80px;
 }
 .nav .bottom .new::-webkit-scrollbar{
   width: 0;
@@ -209,7 +210,6 @@ font-family: 'Roboto Condensed', sans-serif;
   white-space: nowrap;
   padding: 3px;
   color: #ebebeb;
-  font-size: 17px;
   border-radius: 10px;
   margin: 0 2px;
   background-color: #808080;
@@ -535,7 +535,7 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 .big .another{
   margin-left: 3px;
-  padding-top: 80px;
+  padding-top: 120px;
   background-color: #ebebeb;
 }
 .big .h1{
@@ -585,7 +585,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 .bfast img{
   width: 100%;
-  height: 220px;
+  height: 240px;
   border-radius: 20px;
   cursor: pointer;
   padding-right: 5px;
