@@ -1,12 +1,14 @@
 import React from 'react'
 import T from './mydata7';
-
+import MyNavbar from './MyNavbar';
 const {TeA} = T;
 const Tea = () => {
   return (
     <div className="big">
+              <MyNavbar/>
 
-    <div className="h1">
+              <div className="another">
+              <div className="h1">
     <h1>TEA</h1>
     </div>
          
@@ -33,6 +35,8 @@ const Tea = () => {
 
    })}
   </div>
+              </div>
+   
   </div>
   
   )

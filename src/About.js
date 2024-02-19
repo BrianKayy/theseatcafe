@@ -16,7 +16,7 @@ const About = () => {
         <div className="seat">
         
           <div className="abt">
-          <h3 className='h3'>WHO WE ARE</h3>
+          <h3 className='h3'>OUR STORY</h3>
       <p>We're   a speciality coffeeshop established in 2021 located in Al Heliow-Ajman. 
         We have two obsessions: coffee and food. We’re passionate about sharing both with you,
          which is why we created  <b>The Seat Cafe</b>. Here is a place to eat, drink, meet friends,
@@ -44,7 +44,6 @@ const About = () => {
            </div>
        </div>
          </div>
-        
         <div className="abt3">
         <h3 className='h3'>COFFEE  <i class="fa-solid fa-mug-hot"></i></h3>
        <p>If you’ve never visited The Seat Cafe before, you’re in for a treat.

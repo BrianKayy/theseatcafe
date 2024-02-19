@@ -1,18 +1,18 @@
-import React from 'react'
-import Cdrink from './CDrinks'
-
-
+import React from 'react';
+import Cdrink from './CDrinks';
+import MyNavbar from './MyNavbar';
 const {Colddrink} = Cdrink;
 const ColdDrinks = () => {
   return (
     <div className="big">
-
-    <div className="h1">
+        <MyNavbar/>
+       <div className="another">
+       <div className="h1">
     <h1>SOFT DRINKS</h1>
     </div>
          
     <div className='breakfast'>
-
+   
    {Colddrink.map((drink) =>{
        console.log(drink);
        return( <div className="bfast">
@@ -32,6 +32,8 @@ const ColdDrinks = () => {
 
    })}
   </div>
+       </div>
+    
   </div>
   
   )

@@ -1,13 +1,14 @@
 import React from 'react'
 import Frapp from './mydata4';
-
-
+import MyNavbar from './MyNavbar';
 const {Frap}   = Frapp;
  const Frappe = () => {
   return (
     <div className="big">
-
-    <div className="h1">
+        
+        <MyNavbar/>
+        <div className="another">
+        <div className="h1">
     <h1>FRAPPE</h1>
     </div>
          
@@ -34,6 +35,8 @@ const {Frap}   = Frapp;
 
    })}
   </div>
+        </div>
+    
   </div>
   
   )

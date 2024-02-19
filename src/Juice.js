@@ -1,12 +1,16 @@
 import React from 'react'
 import Juic from './mydata6';
+import MyNavbar from './MyNavbar';
+
 
 const {juice} = Juic;
 const Juice = () => {
   return (
     <div className="big">
+  <MyNavbar/>
 
-    <div className="h1">
+  <div className="another">
+  <div className="h1">
     <h1>JUICES|MOJITO</h1>
     </div>
          
@@ -31,6 +35,8 @@ const Juice = () => {
        )  
    })}
   </div>
+  </div>
+
   </div>
   
   )

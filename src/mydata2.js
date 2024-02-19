@@ -7,8 +7,6 @@ import se from './images/sens.JPG';
 import br from './images/brownies.JPG'
 import bp from './images/browniesP.JPG'
 import d from './images/datec.jpg';
-import pm from './images/pava-medium.jpg'
-import pl from './images/pavaL.jpg'
 import sc from './images/Smores cho.jpeg';
 import sp from './images/sensebastian.jpg';
 const Dessert = {
@@ -54,20 +52,6 @@ const Dessert = {
            price: '21',
            image: p,
            details: ''
-       },
-       {
-        id:  '5',
-        name: 'PAVALOVA CAKE MEDIUM',
-        price: '105',
-        image: pm,
-        details: ''
-       },    
-        {
-        id:  '5',
-        name: 'PAVALOVA CAKE LARGE',
-        price: '150',
-        image: pl,
-        details: ''
        },
        {
            id:  '6',

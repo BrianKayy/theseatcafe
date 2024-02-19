@@ -2,6 +2,8 @@ import s from './images/spanishSummer.jpg';
 import m from './images/mojitoB.jpeg';
 import a from './images/acai box.jpeg';
 import c from './images/coffe-box.jpeg';
+import pm from './images/pava-medium.jpg'
+import pl from './images/pavaL.jpg'
 const Summer= {
     SummerSpecials:[
        {
@@ -39,6 +41,20 @@ const Summer= {
         image: a,
         details: '6 pieces'
     },
+    {
+        id:  '5',
+        name: 'PAVALOVA CAKE MEDIUM',
+        price: '105',
+        image: pm,
+        details: ''
+       },    
+        {
+        id:  '5',
+        name: 'PAVALOVA CAKE LARGE',
+        price: '150',
+        image: pl,
+        details: ''
+       },
      
    ]
 }

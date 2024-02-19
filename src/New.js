@@ -1,12 +1,15 @@
 import React from 'react'
 import Summer from './mydata8';
+import MyNavbar from './MyNavbar';
+
 
 const {SummerSpecials} = Summer;
 const New = () => {
   return (
     <div className="big">
-
-    <div className="h1">
+              <MyNavbar/>
+              <div className="another">
+              <div className="h1">
     <h1>SUMMER SPECIALS</h1>
     </div>
          
@@ -33,6 +36,8 @@ const New = () => {
 
    })}
   </div>
+              </div>
+
   </div>
   
   )
