@@ -18,11 +18,48 @@ import cp from './images/pistachioC.jpeg';
 const Bfast = {
      BreakFast:[
         {
-            id:  '1',
-            name: 'MASHED-AVOCADO',
+            id:  '18',
+            name: ' PLAIN CROISSAINT',
+            price: '10',
+            image: pc,
+            details: ''
+        },
+        {
+            id:  '19',
+            name: ' NUTTELLA CROISSANT',
+            price: '10',
+            image: nc,
+            details: ''
+        },
+        {
+            id:  '20',
+            name: ' CHEESE CROISSAINT',
+            price: '10',
+            image: cc,
+            details: ''
+        },
+        {
+            id:  '21',
+            name: 'PISTACHIO CROISSANT ',
+            price: '15',
+            image: cp,
+            details: ''
+        }, 
+      
+        {
+            id:  '11',
+            name: 'FRENCH TOAST',
             price: '28',
-            image: m,
-            details: 'Brown-toast, Avocado, Feta-cheese, Pomegranate, Oregano'
+            image: ft,
+            details: ''
+        },
+        
+        {
+            id:  '6',
+            name: 'AVOCADO-TOAST',
+            price: '23',
+            image: av,
+            details: 'Brown-toast, Avocado, Mushroom, Fetacheese, Smoked-cherry-tomato'
         },
         {
             id:  '2',
@@ -31,6 +68,15 @@ const Bfast = {
             image: br,
             details: 'Brown-toast, Green-pesto, Feta-cheese, Cherry-tomato, Balsimic'
         },
+       
+        {
+            id:  '1',
+            name: 'MASHED-AVOCADO',
+            price: '28',
+            image: m,
+            details: 'Brown-toast, Avocado, Feta-cheese, Pomegranate, Oregano'
+        },
+       
         {
             id:  '3',
             name: 'BUTTER-OMELETTE',
@@ -38,27 +84,8 @@ const Bfast = {
             image: B,
             details: 'Brown-toast, Omelette, Oregano, Mushroom, Cherry-Tomato'
         },
-        {
-            id:  '4',
-            name: 'CROISSAINT-EGGS-BENEDICT',
-            price: '28',
-            image: C,
-            details: 'croissaint, Pouched-eggs, Pepperoni, Mushroom, Hollandaise-sauce, Oregano'
-        },
-        {
-            id:  '5',
-            name: 'EGGS-BENEDICT',
-            price: '28',
-            image: e,
-            details: 'Soft-potato-bun, Pouched-eggs, Pepperoni, Mushroom, Hollandaise-sauce, Oregano'
-        },
-        {
-            id:  '6',
-            name: 'AVOCADO-TOAST',
-            price: '23',
-            image: av,
-            details: 'Brown-toast, Avocado, Mushroom, Fetacheese, Smoked-cherry-tomato'
-        },
+       
+        
         {
             id:  '7',
             name: 'NUTELLA-TOAST',
@@ -88,41 +115,21 @@ const Bfast = {
             details: 'Brown-toast, Avocado, scrambled eggs, fetacheese, Pomegranate, Oregano'
         },
         {
-            id:  '11',
-            name: 'FRENCH TOAST',
+            id:  '4',
+            name: 'CROISSAINT-EGGS-BENEDICT',
             price: '28',
-            image: ft,
-            details: ''
+            image: C,
+            details: 'croissaint, Pouched-eggs, Pepperoni, Mushroom, Hollandaise-sauce, Oregano'
+        },
+        {
+            id:  '5',
+            name: 'EGGS-BENEDICT',
+            price: '28',
+            image: e,
+            details: 'Soft-potato-bun, Pouched-eggs, Pepperoni, Mushroom, Hollandaise-sauce, Oregano'
         },
         
-        {
-            id:  '18',
-            name: ' PLAIN CROISSAINT',
-            price: '10',
-            image: pc,
-            details: ''
-        },
-        {
-            id:  '19',
-            name: ' NUTTELLA CROISSANT',
-            price: '10',
-            image: nc,
-            details: ''
-        },
-        {
-            id:  '20',
-            name: ' CHEESE CROISSAINT',
-            price: '10',
-            image: cc,
-            details: ''
-        },
-        {
-            id:  '21',
-            name: 'PISTACHIO CROISSANT ',
-            price: '15',
-            image: cp,
-            details: ''
-        },
+      
     ]
 }
 
