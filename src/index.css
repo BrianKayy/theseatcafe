@@ -162,7 +162,7 @@ font-family: 'Roboto Condensed', sans-serif;
   .navbar .top img{
     width: 100px;
     height: 50px;
-    border-radius: 30px;
+    border-radius: 18px;
   }
   
   .navbar .top a{
@@ -184,7 +184,7 @@ font-family: 'Roboto Condensed', sans-serif;
     border-radius: 10px;
   }
   .bottom{ 
-  padding-top: 16px;
+  padding-top: 5px;
   display: block;
   background: linear-gradient(to right, #868f96 0%, #596164 100%);
   position: fixed;
