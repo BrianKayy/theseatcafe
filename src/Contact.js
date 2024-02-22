@@ -16,13 +16,15 @@ import { Link } from 'react-router-dom';
        </div>
     <div className="form-container">
     <div className="form">
-        <span className="heading">Get in touch</span>
+       <form action='https://formsubmit.co/theseatcafe22@gmail.com' method="POST">
+       <span className="heading">Get in touch</span>
         <input placeholder="Name" type="text" className="input" required/>
         <input placeholder="Email" id="mail" type="email" className="input" required/>
         <textarea placeholder="How can seat cafe help you" rows="10" cols="30" id="message" name="message" className="textarea" required></textarea>
         <div className="button-container">
-        <div className="send-button">Send</div>
+        <button className="send-button">Send</button>
         </div>
+       </form>       
 </div>
 </div>
 

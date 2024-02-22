@@ -11,8 +11,8 @@ const MyNavbar = () => {
     <div className="bottom"  >
     
       <div className='new'  >
-      <NavLink to="/WinterSpecials"  >DINNER</NavLink > 
        <NavLink to="/Breakfast"    >BREAKFAST</NavLink >
+       <NavLink to="/WinterSpecials"  >DINNER</NavLink > 
        <NavLink to="/Desserts"   >DESSERTS</NavLink > 
        <NavLink to="/HotCoffee"  >HOT COFFEE</NavLink >
        <NavLink to="/ColdCoffee"   >COLD COFFEE</NavLink >

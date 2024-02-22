@@ -5,12 +5,18 @@ import pp from './images/pepperoni.jpg';
 import ff from './images/fries.jpeg';
 const Specials = {
      Special:[
-        
         {
-            id:  '12',
-            name: 'FRIES',
-            price: '15',
-            image: ff,
+            id:  '16',
+            name: 'PEPPERONI PIZZA ',
+            price: '30',
+            image: pp,
+            details: ''
+        },
+        {
+            id:  '17',
+            name: 'MUSHROOM PIZZA',
+            price: '31',
+            image: ms,
             details: ''
         },
         {
@@ -20,6 +26,14 @@ const Specials = {
             image: mp,
             details: ''
         },
+        {
+            id:  '12',
+            name: 'FRIES',
+            price: '15',
+            image: ff,
+            details: ''
+        },
+
         {
             id:  '13',
             name: 'HOT DOG CHICKEN',
@@ -35,20 +49,7 @@ const Specials = {
             details: ''
         },
    
-        {
-            id:  '16',
-            name: 'PEPPERONI PIZZA ',
-            price: '30',
-            image: pp,
-            details: ''
-        },
-        {
-            id:  '17',
-            name: 'MUSHROOM PIZZA',
-            price: '31',
-            image: ms,
-            details: ''
-        },
+        
     
     ]
 }
