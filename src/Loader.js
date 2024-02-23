@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import { CiCoffeeBean } from "react-icons/ci";
+
 
 
 const Loader = () => {
@@ -18,8 +18,8 @@ const Loader = () => {
 </div>
       </div>
       
-<div className='cafe'> <span className='caffee'>WELCOME TO <br /> <CiCoffeeBean />
-            <br />    THE SEAT CAFE</span> </div>
+<div className='cafe'> <span className='caffee'>THE SEAT CAFE <br /> 
+            <br />  Est.2021  </span> </div>
 </div>
    
   )

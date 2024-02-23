@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import logo from './images/logo.jpg';
-
+import MyNavbar from './MyNavbar';
 
 const Navbar = () => {
   return (
@@ -13,7 +13,6 @@ const Navbar = () => {
             <NavLink to="/About">ABOUT</NavLink>
             <NavLink to="/Contact">CONTACT</NavLink>
             </div>
-           
         </div>
         
     </div>

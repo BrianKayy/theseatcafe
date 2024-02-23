@@ -1,0 +1,28 @@
+.event{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+   font-size: 24px;
+
+}
+
+.event .img img{
+    width: 800px;
+    height: 650px;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .event{
+        display: block;
+        position: relative;
+        margin-top: 20px;
+       font-size: 24px;
+    
+    }
+    
+    .event .img img{
+        width: 350px;
+        height: 400px;
+    }
+}

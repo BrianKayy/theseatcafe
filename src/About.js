@@ -8,11 +8,30 @@ import b2 from './images/brew2.jpeg';
 import b3 from './images/ph1.jpeg';
 import c from './images/combination.jpeg';    
 import './App.css';
-
+import Slider from "react-slick";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css'; 
+import './myC.css'
+import e1 from './images/e1.jpeg';
+import e2 from './images/e2.jpeg';
+import e3 from './images/e3.jpeg';
+import e4 from './images/e4.jpeg';
 const About = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 1500,
+    cssEase: "linear"
+  };
   return (
-
+   
     <div className="about">
+
+
         <div className="seat">
         
           <div className="abt">
@@ -65,11 +84,28 @@ const About = () => {
          Let us know what you need, and we’ll help you out for example
         weddings, birthdays, company celebrations, get-togethers. We also make bulk take-away
         orders for big groups , to know more please <Link to="tel:065292029">contact us</Link>. </p>
-        <div className="images">
-           <div className="new">
-            <img src={c}  alt="" />
-           </div>
-        </div>
+        <div className="event">
+{/* 
+<span>
+  Are you planning an event? just <Link to="tel:065292029">contact us</Link>
+</span> */}
+       <div className="images">
+        <Slider {...settings}>
+            <div className="img">
+              <img src={e4} alt="" />
+            </div>
+            <div className="img">
+              <img src={e3} alt="" />
+            </div>
+            <div className="img">
+              <img src={e2} alt="" />
+            </div>
+            <div className="img">
+              <img src={e1} alt="" />
+            </div>
+        </Slider>
+       </div>
+</div>
        </div>
         <div className="operating-hrs">
           <h3>Our services</h3>

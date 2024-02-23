@@ -977,7 +977,7 @@ button .top-btn-position{
 }
 .main-loader{
   display: block;
-  background-color: #111;
+  background-color: #fff;
   height: 100vh;
   width: 100%;
 }
@@ -1088,7 +1088,7 @@ button .top-btn-position{
   height: 28px;
   margin: 2px;
   border-radius: 0px;
-  background: white;
+  background: #000;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1131,7 +1131,7 @@ button .top-btn-position{
   justify-content: center;
   align-items: center;
   font-size: 27px;
-  color: #fff;
+  color: #000;
   text-align: center;
   font-family: "Merriweather", serif;
   font-weight: 900;
