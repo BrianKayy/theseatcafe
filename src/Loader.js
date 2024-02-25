@@ -18,7 +18,7 @@ const Loader = () => {
 </div>
       </div>
       
-<div className='cafe'> <span className='caffee'>THE SEAT CAFE <br /> 
+<div className='cafe'> <span className='caffee'>WELCOME TO<br /> <br />THE SEAT CAFE <br /> 
             <br />  EST-2021  </span> </div>
 </div>
    

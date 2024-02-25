@@ -1071,7 +1071,7 @@ button .top-btn-position{
  .main-loader .Loader{
   display: flex;
   justify-content: center;
-  padding: 180px 0px;
+  padding: 150px 0px;
  }
  .main-loader .Loader .loader {
   position: relative;
