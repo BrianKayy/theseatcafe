@@ -76,6 +76,28 @@ const Bfast = {
             image: m,
             details: 'Brown-toast, Avocado, Feta-cheese, Pomegranate, Oregano'
         },
+        {
+            id:  '10',
+            name: 'TOAST-SCRAMBLED',
+            price: '28',
+            image: t,
+            details: 'Brown-toast, Avocado, scrambled eggs, fetacheese, Pomegranate, Oregano'
+        },
+        {
+            id:  '4',
+            name: 'CROISSAINT-EGGS-BENEDICT',
+            price: '28',
+            image: C,
+            details: 'croissaint, Pouched-eggs, Pepperoni, Mushroom, Hollandaise-sauce, Oregano'
+        },
+        {
+            id:  '5',
+            name: 'EGGS-BENEDICT',
+            price: '28',
+            image: e,
+            details: 'Soft-potato-bun, Pouched-eggs, Pepperoni, Mushroom, Hollandaise-sauce, Oregano'
+        },
+        
        
         {
             id:  '3',
@@ -107,28 +129,7 @@ const Bfast = {
             image: s,
             details: 'Croissaint, Scrambled-eggs, Pomegranate, Oregano'
         },
-        {
-            id:  '10',
-            name: 'TOAST-SCRAMBLED',
-            price: '28',
-            image: t,
-            details: 'Brown-toast, Avocado, scrambled eggs, fetacheese, Pomegranate, Oregano'
-        },
-        {
-            id:  '4',
-            name: 'CROISSAINT-EGGS-BENEDICT',
-            price: '28',
-            image: C,
-            details: 'croissaint, Pouched-eggs, Pepperoni, Mushroom, Hollandaise-sauce, Oregano'
-        },
-        {
-            id:  '5',
-            name: 'EGGS-BENEDICT',
-            price: '28',
-            image: e,
-            details: 'Soft-potato-bun, Pouched-eggs, Pepperoni, Mushroom, Hollandaise-sauce, Oregano'
-        },
-        
+       
       
     ]
 }
