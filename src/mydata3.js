@@ -4,7 +4,7 @@ import v from './images/v60cold.jpg';
 import cb from './images/coldB.jpg';
 import v6 from './images/v60h.jpeg';
 import sp from './images/symphony.jpeg';
-import cd from './images/colddrip.jpeg';
+import cd from './images/coldDrip.jpeg';
 import cl from './images/kalita.jpeg';
 const FilterC = {
     Filter:[

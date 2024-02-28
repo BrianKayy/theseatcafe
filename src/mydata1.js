@@ -3,6 +3,7 @@ import ms from './images/mushroom.jpg';
 import mp from './images/mag.jpg';
 import pp from './images/pepperoni.jpg';
 import ff from './images/fries.jpeg';
+import hdc from './images/hotDch.jpg';
 const Specials = {
      Special:[
         {
@@ -38,7 +39,7 @@ const Specials = {
             id:  '13',
             name: 'HOT DOG CHICKEN',
             price: '28',
-            image: hd,
+            image: hdc,
             details: ''
         },
         {
