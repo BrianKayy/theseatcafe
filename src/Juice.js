@@ -1,13 +1,13 @@
 import React from 'react'
 import Juic from './mydata6';
-import MyNavbar from './MyNavbar';
+
 
 
 const {juice} = Juic;
 const Juice = () => {
   return (
     <div className="big">
-  <MyNavbar/>
+  
 
   <div className="another">
   <div className="h1">

@@ -1,6 +1,5 @@
 import React from 'react';
 import Bfast from './myData';
-import MyNavbar from './MyNavbar';
 
 
 
@@ -14,7 +13,7 @@ const  Breakfast = () => {
   return (
     
        <div className="big ">
-                <MyNavbar/>
+                
          <div className="another">
          <div className="h1">
             <h1>BREAKFAST</h1>

@@ -1,12 +1,12 @@
 import React from 'react'
 import Frapp from './mydata4';
-import MyNavbar from './MyNavbar';
+
 const {Frap}   = Frapp;
  const Frappe = () => {
   return (
     <div className="big">
         
-        <MyNavbar/>
+        
         <div className="another">
         <div className="h1">
     <h1>FRAPPE</h1>

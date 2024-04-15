@@ -1,11 +1,10 @@
 import React from 'react';
 import Cdrink from './CDrinks';
-import MyNavbar from './MyNavbar';
 const {Colddrink} = Cdrink;
 const ColdDrinks = () => {
   return (
     <div className="big">
-        <MyNavbar/>
+        
        <div className="another">
        <div className="h1">
     <h1>SOFT DRINKS</h1>

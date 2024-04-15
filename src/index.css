@@ -68,10 +68,11 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .bottom{
-  padding-top: 16px;
+  padding-top: 12px;
   position: fixed;
   width: 100%;
   z-index: 1;
+  top: 90px;
   background: linear-gradient(to right, #868f96 0%, #37393a  100%);
 }
 
@@ -160,10 +161,10 @@ font-family: 'Roboto Condensed', sans-serif;
     border-radius: 10px;
   }
   .bottom{ 
-  
   display: block;
   background: linear-gradient(to right, #868f96 0%, #37393a 100%);
   position: fixed;
+  top: 50px;
   z-index: 1;
   margin: 0;
 }
@@ -249,10 +250,10 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 .bottom{
-  padding-top: 25px;
   display: block;
   background: linear-gradient(to right, #868f96 0%, #37393a  100%);
   position: fixed;
+  top: 70px;
   z-index: 1;
   margin: 0;
 }

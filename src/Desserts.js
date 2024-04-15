@@ -1,12 +1,12 @@
 import React from 'react'
 import Dessert from './mydata2';
-import MyNavbar from './MyNavbar';
+
 const {Desert} = Dessert;
 const Desserts = () => {
   return (
     <div className="big">
          
-         <MyNavbar/>
+         
          <div className="another">
          <div className="h1">
     <h1>DESSERTS</h1>

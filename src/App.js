@@ -17,6 +17,7 @@ import Tea from './Tea'
 import Frappe from './Frappe';
 import WinterSpecials from "./WinterSpecials";
 import Loader from "./Loader";
+import MyNavbar from "./MyNavbar";
 function App() {
   //loader state
   const [isLoading, setIsLoading]=useState(true);
@@ -38,6 +39,7 @@ function App() {
         <Router>
         <div className="App">
             <Navbar/>
+            <MyNavbar/>
              <Routes>
               <Route path="/" element={<Home />}/>
               <Route path="/Contact" element={<Contact/>}/>

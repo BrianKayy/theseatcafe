@@ -1,12 +1,11 @@
 import React from 'react'
 import Coldcoffee from './Coldcof';
-import MyNavbar from './MyNavbar';
 
 const {Coldc} = Coldcoffee;
 const ColdCoffee = () => {
   return (
     <div className="big">
-       <MyNavbar/>
+       
        <div className="another">
        <div className="h1">
     <h1>COLD COFFEE</h1>

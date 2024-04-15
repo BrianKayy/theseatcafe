@@ -1,6 +1,6 @@
 import React from 'react'
 import Specials  from './mydata1';
-import MyNavbar from './MyNavbar';
+
 
 
 
@@ -10,7 +10,7 @@ const WinterSpecials = () => {
   return (
     
     <div className="big ">
-       <MyNavbar/>
+       
 
        <div className="another">
        <div className="h1">

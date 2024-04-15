@@ -1,12 +1,12 @@
 import React from 'react'
 import FilterC from './mydata3';
-import MyNavbar from './MyNavbar';
+
 const {Filter} = FilterC;
 const FilterCoffee = () => {
   return (
     <div className="big">
         
-        <MyNavbar/>
+        
             <div className="another">
             <div className="h1">
     <h1>FILTER COFFEE</h1>
