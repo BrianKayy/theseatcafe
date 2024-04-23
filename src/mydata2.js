@@ -70,7 +70,7 @@ const Dessert = {
        {
         id:  '8',
         name: "S'MORES CHOCOLATE",
-        price: '27',
+        price: '23',
         image: sc,
         details: ''
     },
