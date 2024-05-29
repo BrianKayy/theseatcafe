@@ -1,7 +1,7 @@
 import sp from './images/spanishice.jpg';
 import a from './images/iceA.jpg';
 import m from './images/matchaC.jpg'
-import b from './images/blueSpanish.jpg'
+import b from './images/blueSpanish.jpg';
 import u from './images/ube.jpeg';
 const Coldcoffee = {
     Coldc:[
@@ -51,7 +51,7 @@ const Coldcoffee = {
        {
         id:  '6',
         name: 'UBE LATTE',
-        price: '...',
+        price: '22',
         image: u,
         details: ''
     },

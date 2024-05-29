@@ -4,7 +4,7 @@ import s from './images/Smojito.jpg';
 import o from './images/orangeJ.jpg';
 import b from './images/Bmojito.jpg';
 import c from './images/cascara.jpeg';
-import l from './images/lemonade.jpg';
+import l from './images/lemonade.jpeg';
 const Juic  = {    
     juice:[
        {
