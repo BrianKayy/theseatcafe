@@ -8,7 +8,11 @@ import br from './images/brownies.JPG'
 import bp from './images/browniesP.JPG'
 import d from './images/datec.jpg';
 import sc from './images/Smores cho.jpeg';
-import sp from './images/sensebastian.jpg';
+// import sp from './images/sensebastian.jpg';
+import dc from './images/date cookie.jpeg';
+import nc from './images/newyork cookie.jpeg';
+import cc from './images/cheese cake.jpeg';
+import pc from './images/pistachio cookie.jpeg';
 const Dessert = {
     Desert:[
        {
@@ -27,6 +31,20 @@ const Dessert = {
        },
        {
         id:  '2',
+        name: 'DATE COOKIE',
+        price: '12',
+        image: dc,
+        details: ''
+    },
+    {
+        id:  '2',
+        name: 'PISTACHIO COOKIE',
+        price: '12',
+        image: pc,
+        details: ''
+    },
+       {
+        id:  '2',
         name: 'BROWNIES PEANUT',
         price: '12',
         image: bp,
@@ -40,12 +58,26 @@ const Dessert = {
            details: ''
        },
        {
+        id:  '2',
+        name: 'CHEESE CAKE',
+        price: '29',
+        image: cc,
+        details: ''
+    },
+       {
            id:  '4',
            name: 'DATES CAKE VANILLA',
            price: '21',
            image: dv,
            details: ''
        },
+       {
+        id:  '2',
+        name: 'NEW YORK COOKIE',
+        price: '14',
+        image: nc,
+        details: ''
+    },
        {
            id:  '5',
            name: 'PAVALOVA CAKE',
@@ -60,13 +92,13 @@ const Dessert = {
            image: se,
            details: ''
        },
-       {
-        id:  '3',
-        name: 'SEN SEBASTIAN PISTACHIO',
-        price: '26',
-        image: sp,
-        details: ''
-    },
+    //    {
+    //     id:  '3',
+    //     name: 'SEN SEBASTIAN PISTACHIO',
+    //     price: '26',
+    //     image: sp,
+    //     details: ''
+    // },
        {
         id:  '8',
         name: "S'MORES CHOCOLATE",

@@ -46,7 +46,7 @@ const Juic  = {
        {
         id:  '6',
         name: 'LEMONADE',
-        price: '16',
+        price: '21',
         image: l,
         details: ''
     },

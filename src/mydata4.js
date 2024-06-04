@@ -1,8 +1,9 @@
-import a from './images/Facai.jpg'
-import s from './images/Fsigna.jpg'
-import p from './images/Fpistachio.jpg'
-import o from './images/Foreo.jpg'
-import m from './images/Fmango.jpg'
+import a from './images/Facai.jpg';
+import s from './images/Fsigna.jpg';
+import p from './images/Fpistachio.jpg';
+import o from './images/Foreo.jpg';
+import m from './images/Fmango.jpg';
+import uf from './images/ube frappe.jpeg';
  
 const Frapp= {
     Frap:[
@@ -41,6 +42,13 @@ const Frapp= {
            image: a,
            details: ''
        },
+       {
+        id:  '5',
+        name: 'UBE FRAPPE',
+        price: '24',
+        image: uf,
+        details: ''
+    },
        
    ]
 }

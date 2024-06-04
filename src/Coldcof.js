@@ -2,7 +2,9 @@ import sp from './images/spanishice.jpg';
 import a from './images/iceA.jpg';
 import m from './images/matchaC.jpg'
 import b from './images/blueSpanish.jpg';
-import u from './images/ube.jpeg';
+// import u from './images/ube.jpeg';
+import fm from './images/foam matcha.jpeg';
+import li from './images/long island.jpeg';
 const Coldcoffee = {
     Coldc:[
        {
@@ -50,9 +52,23 @@ const Coldcoffee = {
        },
        {
         id:  '6',
-        name: 'UBE LATTE',
-        price: '22',
-        image: u,
+        name: 'FOAM MATCHA',
+        price: '28',
+        image: fm,
+        details: ''
+    },
+    //    {
+    //     id:  '6',
+    //     name: 'UBE LATTE',
+    //     price: '22',
+    //     image: u,
+    //     details: ''
+    // },
+    {
+        id:  '6',
+        name: 'LONG ISLAND',
+        price: '23',
+        image: li,
         details: ''
     },
        
