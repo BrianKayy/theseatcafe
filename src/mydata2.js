@@ -6,8 +6,8 @@ import kr from './images/rockyoad.jpeg';
 import se from './images/sens.JPG';
 import br from './images/brownies.JPG'
 import bp from './images/browniesP.JPG'
-import d from './images/datec.jpg';
-import sc from './images/Smores cho.jpeg';
+// import d from './images/datec.jpg';
+// import sc from './images/Smores cho.jpeg';
 // import sp from './images/sensebastian.jpg';
 import dc from './images/date cookie.jpeg';
 import nc from './images/newyork cookie.jpeg';
@@ -50,13 +50,13 @@ const Dessert = {
         image: bp,
         details: ''
     },
-       {
-           id:  '3',
-           name: 'DATES CAKE',
-           price: '18',
-           image: d,
-           details: ''
-       },
+    //    {
+    //        id:  '3',
+    //        name: 'DATES CAKE',
+    //        price: '18',
+    //        image: d,
+    //        details: ''
+    //    },
        {
         id:  '2',
         name: 'CHEESE CAKE',
@@ -99,13 +99,13 @@ const Dessert = {
     //     image: sp,
     //     details: ''
     // },
-       {
-        id:  '8',
-        name: "S'MORES CHOCOLATE",
-        price: '23',
-        image: sc,
-        details: ''
-    },
+    //    {
+    //     id:  '8',
+    //     name: "S'MORES CHOCOLATE",
+    //     price: '23',
+    //     image: sc,
+    //     details: ''
+    // },
        {
            id:  '7',
            name: 'ROCKY ROAD',
