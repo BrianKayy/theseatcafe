@@ -21,7 +21,8 @@ font-family: 'Roboto Condensed', sans-serif;
   width: 100%;
   display: block;
   width: 100%;
-  background: linear-gradient(to right, #868f96 0%, #37393a  100%);
+  background-color: #141619;
+  /* background: linear-gradient(to right, #868f96 0%, #37393a  100%); */
 }
 
 .navbar .top{
@@ -34,7 +35,8 @@ font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
   z-index: 1;
   top: 0;
-  background: linear-gradient(to right, #868f96 0%, #37393a  100%);
+  background-color: #141619;
+  /* background: linear-gradient(to right, #868f96 0%, #37393a  100%); */
   width: 100%;
 }
 
@@ -73,7 +75,8 @@ font-family: 'Roboto Condensed', sans-serif;
   width: 100%;
   z-index: 1;
   top: 90px;
-  background: linear-gradient(to right, #868f96 0%, #37393a  100%);
+  background-color: #141619;
+  /* background: linear-gradient(to right, #868f96 0%, #37393a  100%); */
 }
 
 
@@ -82,7 +85,8 @@ font-family: 'Roboto Condensed', sans-serif;
   align-items: center;
   z-index: 1;  
   padding-top: 0;
-  background: linear-gradient(to right, #868f96 0%, #37393a  100%);
+  background-color: #141619;
+  /* background: linear-gradient(to right, #868f96 0%, #37393a  100%); */
   height: auto;
   display: flex;
   
@@ -93,9 +97,9 @@ font-family: 'Roboto Condensed', sans-serif;
   white-space: nowrap;
   padding: 3px;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 0;
   margin: 0 4px;
-  background-color: #000;
+  background-color: #141619;
   width: fit-content;
   font-weight: 900;
   font-size: 25px;
@@ -103,15 +107,16 @@ font-family: 'Roboto Condensed', sans-serif;
  
 }
 .nav .bottom  .new a.active{
-  color: #000;
+  color: #141619;
   background-color: #fff;
-  border: 6px solid  #000;
+  border: 6px solid  #141619;
   font-weight: bold;
 }
 
 
 @media only screen and (max-width: 600px) {
 	.navbar{
+    background: #141619;
     margin: 0;
     display: block;  
   }
@@ -126,7 +131,8 @@ font-family: 'Roboto Condensed', sans-serif;
     width: 100%;
     height: 55px;
     z-index: 1;
-    background: linear-gradient(to right, #868f96 0%, #37393a 100%);
+    background-color: #141619;
+    /* background: linear-gradient(to right, #868f96 0%, #37393a 100%); */
     top: 0;
   }
   
@@ -162,14 +168,20 @@ font-family: 'Roboto Condensed', sans-serif;
   }
   .bottom{ 
   display: block;
-  background: linear-gradient(to right, #868f96 0%, #37393a 100%);
+  background-color: #141619;
+  /* background: linear-gradient(to right, #868f96 0%, #37393a 100%); */
   position: fixed;
   top: 50px;
   z-index: 1;
   margin: 0;
 }
+
+.bottom .fa-solid{
+  display: none;
+}
 .nav .bottom .new{
-  background: linear-gradient(to right, #868f96 0%, #37393a 100%);
+  background-color: #141619;
+  /* background: linear-gradient(to right, #868f96 0%, #37393a 100%); */
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -187,19 +199,19 @@ font-family: 'Roboto Condensed', sans-serif;
   white-space: nowrap;
   padding: 3px;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 2px;
   margin: 0 2px;
-  background-color: #000;
+  background-color: #141619;
   width: fit-content;
-  font-weight: 900px;
+  font-weight: 500px;
   font-size: 18px;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
 }
 
 .nav .bottom  .new a.active{
-  color: #000;
+  color: #141619;
   background-color: #fff;
-  border: 4px solid  #000;
+  border: 2px solid  #141619;
 }
 
 }
@@ -280,7 +292,7 @@ font-family: 'Roboto Condensed', sans-serif;
   cursor: pointer;
   color: #fcfcfc;
   font-size: 20px;
-  background-color: #000;
+  background-color: #141619;
   border: solid 4px #fff9f9;
   border-radius: 15px;
   font-weight:bold;
@@ -302,11 +314,7 @@ font-family: 'Roboto Condensed', sans-serif;
   padding-top: 90px;
 }
 .big .h1{
-    width: 250px;
-    height: 50px;
-    border-radius: 20px;
-    padding: 2px;
-    box-shadow: #111 0 1px 3px 2px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -317,13 +325,7 @@ font-family: 'Roboto Condensed', sans-serif;
   
 }
 .big .h1 h1{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(0deg, #000, #272727);
-  color: #fff;
-  border-radius: 17px;
+  color: #141619;
   width: 100%;
   height: 100%;
   font-size: 28px;
@@ -386,13 +388,7 @@ font-family: 'Roboto Condensed', sans-serif;
   background: #b5b1b1;
 }
 .big .h1 h1{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(0deg, #000, #272727);
-  color: #fff;
-  border-radius: 17px;
+  color: #141619;
   width: 100%;
   height: 100%;
   font-size: 28px;
@@ -458,11 +454,7 @@ font-family: 'Roboto Condensed', sans-serif;
   background-color: #b5b1b1;
 }
 .big .h1{
-  width: 150px;
-  height: 30px;
-  border-radius: 16px;
-  padding: 2px;
-  box-shadow: #111 0 1px 3px 2px;
+ padding-left: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -473,16 +465,11 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .big .h1 h1{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(0deg, #000, #272727);
-  color: #fff;
-  border-radius: 17px;
+  text-decoration: overline solid 2px #008874;
+  color: #141619;
   width: 100%;
   height: 100%;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 900;
 
 }
@@ -517,13 +504,14 @@ font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
     color: #000;
     font-weight: bold;
+    
 }
 
 .bfast h5{
   padding-top: 5px;
   font-size: 16px;
   font-weight: 800;
-  color: #0047ab;
+  color: #008874;
 }
  .bfast .detail{
   width: 140px;
@@ -535,12 +523,12 @@ font-family: 'Roboto Condensed', sans-serif;
 
  .my-footer{
   display: block;
-  background-color: #000;
+  background-color: #141619;
  }
 
  .my-footer .footer{
   display: flex;
-  background-color: #000;
+  background-color: #141619;
   justify-content: center;
   height: 150px;
   width: 100%;
@@ -572,7 +560,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
   .my-footer .footer{
     display: flex;
-    background-color: #000;
+    background-color: #141619;
     justify-content: center;
     height: 60px;
     width: 100%;
