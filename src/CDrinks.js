@@ -1,5 +1,5 @@
 import w from './images/sparkling.jpeg';
-import v from './images/voss.jpeg';
+import v from './images/stillwater.jpg';
 import c from './images/cola.jpeg';
 import p from './images/pepsi.jpeg';
 import u from './images/7up.jpeg';
@@ -7,7 +7,7 @@ const Cdrink = {
     Colddrink:[
        {
            id:  '1',
-           name: 'VOSS',
+           name: 'VOSS STILL WATER',
            price: '10',
            image: v,
            details: ''
@@ -21,7 +21,7 @@ const Cdrink = {
        },
        {
            id:  '3',
-           name: 'COLA',
+           name: 'COCA COLA',
            price: '5',
            image: c,
            details: ''

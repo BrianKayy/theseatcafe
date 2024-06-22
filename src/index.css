@@ -116,7 +116,11 @@ font-family: 'Roboto Condensed', sans-serif;
 
 @media only screen and (max-width: 600px) {
 	.navbar{
-    background: #141619;
+    background: #22c1c3;
+    background: linear-gradient(
+      to right,
+      #22c1c3,#fdbb2d
+    );
     margin: 0;
     display: block;  
   }
@@ -131,7 +135,11 @@ font-family: 'Roboto Condensed', sans-serif;
     width: 100%;
     height: 55px;
     z-index: 1;
-    background-color: #141619;
+    background: #22c1c3;
+    background: linear-gradient(
+      to right,
+      #22c1c3,#fdbb2d
+    );
     /* background: linear-gradient(to right, #868f96 0%, #37393a 100%); */
     top: 0;
   }
@@ -151,7 +159,7 @@ font-family: 'Roboto Condensed', sans-serif;
   .navbar .top a{
     padding-right: 4px;
     text-decoration: none;
-    color: #fff9f9;
+    color: #fff;
     font-size: 22px;
      font-weight: 900;
      height: 35px;
@@ -168,7 +176,11 @@ font-family: 'Roboto Condensed', sans-serif;
   }
   .bottom{ 
   display: block;
-  background-color: #141619;
+  background: #22c1c3;
+  background: linear-gradient(
+    to right,
+    #22c1c3,#fdbb2d
+  );
   /* background: linear-gradient(to right, #868f96 0%, #37393a 100%); */
   position: fixed;
   top: 50px;
@@ -180,7 +192,11 @@ font-family: 'Roboto Condensed', sans-serif;
   display: none;
 }
 .nav .bottom .new{
-  background-color: #141619;
+  background: #22c1c3;
+  background: linear-gradient(
+    to right,
+    #22c1c3,#fdbb2d
+  );
   /* background: linear-gradient(to right, #868f96 0%, #37393a 100%); */
   display: flex;
   flex-wrap: nowrap;
@@ -201,7 +217,8 @@ font-family: 'Roboto Condensed', sans-serif;
   color: #fff;
   border-radius: 2px;
   margin: 0 2px;
-  background-color: #141619;
+  background: rgba(0,0,0, 0.3);
+  
   width: fit-content;
   font-weight: 500px;
   font-size: 18px;
@@ -209,9 +226,9 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .nav .bottom  .new a.active{
-  color: #141619;
+  color: rgb(20, 22, 25, 0.85);
   background-color: #fff;
-  border: 2px solid  #141619;
+  border: 2px solid  hsl(216, 11%, 9%, 0.5);
 }
 
 }
@@ -223,7 +240,11 @@ font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
   width: 100%;
   display: block;
-  background: linear-gradient(to right, #868f96 0%, #37393a  100%);
+  background: #22c1c3;
+  background: linear-gradient(
+    to right,
+    #22c1c3,#fdbb2d
+  );
 }
 
 .navbar .top{
@@ -235,7 +256,11 @@ font-family: 'Roboto Condensed', sans-serif;
   position: fixed;
   margin: 0;
   z-index: 1;
-  background: linear-gradient(to right, #868f96 0%, #37393a  100%);
+  background: #22c1c3;
+  background: linear-gradient(
+    to right,
+    #22c1c3,#fdbb2d
+  );
   width: 100%;
 }
 
@@ -263,7 +288,11 @@ font-family: 'Roboto Condensed', sans-serif;
 
 .bottom{
   display: block;
-  background: linear-gradient(to right, #868f96 0%, #37393a  100%);
+  background: #22c1c3;
+  background: linear-gradient(
+    to right,
+    #22c1c3,#fdbb2d
+  );
   position: fixed;
   top: 70px;
   z-index: 1;
@@ -273,7 +302,11 @@ font-family: 'Roboto Condensed', sans-serif;
 
  .nav .bottom .new{
   width: 100%;
-  background: linear-gradient(to right, #868f96 0%, #37393a  100%);
+  background: #22c1c3;
+  background: linear-gradient(
+    to right,
+    #22c1c3,#fdbb2d
+  );
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;

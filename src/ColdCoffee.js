@@ -8,7 +8,7 @@ const ColdCoffee = () => {
        
        <div className="another">
        <div className="h1">
-    <h1>COLD COFFEE</h1>
+    <h1>COLD DRINKS</h1>
     </div>
          
     <div className='breakfast'>

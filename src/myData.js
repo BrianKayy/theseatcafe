@@ -125,7 +125,7 @@ const Bfast = {
         {
             id:  '9',
             name: 'SCRAMBLED-EGGS',
-            price: '21',
+            price: '23',
             image: s,
             details: 'Croissaint, Scrambled-eggs, Pomegranate, Oregano'
         },
