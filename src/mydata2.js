@@ -1,7 +1,7 @@
 import  a from './images/acai.jpg';
 import c from './images/cookies.jpg';
 import p from './images/pavalova.jpg';
-import dv from './images/datesc.jpg';
+// import dv from './images/datesc.jpg';
 import kr from './images/rockyoad.jpeg';
 import se from './images/sens.JPG';
 import br from './images/brownies.JPG'
@@ -15,6 +15,14 @@ import cc from './images/cheese cake.jpeg';
 import pc from './images/pistachio cookie.jpeg';
 const Dessert = {
     Desert:[
+
+        {
+            id:  '2',
+            name: 'CHEESE CAKE',
+            price: '29',
+            image: cc,
+            details: ''
+        },
        {
            id:  '1',
            name: 'COOKIES',
@@ -22,6 +30,13 @@ const Dessert = {
            image: c,
            details: ''
        },
+       {
+        id:  '8',
+        name: 'ACAI BOWL',
+        price: '27',
+        image: a,
+        details: ''
+    },
        {
            id:  '2',
            name: 'BROWNIES',
@@ -57,20 +72,14 @@ const Dessert = {
     //        image: d,
     //        details: ''
     //    },
-       {
-        id:  '2',
-        name: 'CHEESE CAKE',
-        price: '29',
-        image: cc,
-        details: ''
-    },
-       {
-           id:  '4',
-           name: 'DATES CAKE VANILLA',
-           price: '21',
-           image: dv,
-           details: ''
-       },
+     
+    //    {
+    //        id:  '4',
+    //        name: 'DATES CAKE VANILLA',
+    //        price: '21',
+    //        image: dv,
+    //        details: ''
+    //    },
        {
         id:  '2',
         name: 'NEW YORK COOKIE',
@@ -113,13 +122,7 @@ const Dessert = {
            image: kr,
            details:''
        },
-       {
-           id:  '8',
-           name: 'ACAI BOWL',
-           price: '27',
-           image: a,
-           details: ''
-       },
+       
        
    ]
 }

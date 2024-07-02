@@ -4,8 +4,8 @@ import sp from './images/hotSpanish.jpeg';
 import a from './images/HotA.jpg';
 import f from './images/flatW.jpg';
 import m from './images/matchaH.jpg';
-import h from './images/hotchoco.jpeg'
-import sh from './images/hotcS.jpeg';
+// import h from './images/hotchoco.jpeg'
+// import sh from './images/hotcS.jpeg';
 import e from './images/essprssoh.jpeg';
 import ct from './images/cortado.jpeg';
 import spa from './images/spanish.jpeg';
@@ -83,20 +83,20 @@ const HotCoffe = {
         image: spa,
         details: ''
     },
-    {
-        id:  '11',
-        name: 'HOT CHOCOLATE ',
-        price: '28',
-        image: h,
-        details: ''
-    },
-    {
-        id:  '12',
-        name: 'SMALL HOT CHOCOLATE',
-        price: '15',
-        image: sh,
-        details: ''
-    },
+    // {
+    //     id:  '11',
+    //     name: 'HOT CHOCOLATE ',
+    //     price: '28',
+    //     image: h,
+    //     details: ''
+    // },
+    // {
+    //     id:  '12',
+    //     name: 'SMALL HOT CHOCOLATE',
+    //     price: '15',
+    //     image: sh,
+    //     details: ''
+    // },
     {
         id:  '13',
         name: 'HOT MATCHA LATTE',
