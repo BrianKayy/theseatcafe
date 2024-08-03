@@ -49,7 +49,7 @@ const Bfast = {
         {
             id:  '11',
             name: 'FRENCH TOAST',
-            price: '28',
+            price: '31',
             image: ft,
             details: ''
         },
@@ -57,14 +57,14 @@ const Bfast = {
         {
             id:  '6',
             name: 'AVOCADO-TOAST',
-            price: '23',
+            price: '26',
             image: av,
             details: 'Brown-toast, Avocado, Mushroom, Fetacheese, Smoked-cherry-tomato'
         },
         {
             id:  '2',
             name: 'BROCHETTE',
-            price: '21',
+            price: '24',
             image: br,
             details: 'Brown-toast, Green-pesto, Feta-cheese, Cherry-tomato, Balsimic'
         },
@@ -72,28 +72,28 @@ const Bfast = {
         {
             id:  '1',
             name: 'MASHED-AVOCADO',
-            price: '28',
+            price: '31',
             image: m,
             details: 'Brown-toast, Avocado, Feta-cheese, Pomegranate, Oregano'
         },
         {
             id:  '10',
             name: 'TOAST-SCRAMBLED',
-            price: '28',
+            price: '31',
             image: t,
             details: 'Brown-toast, Avocado, scrambled eggs, fetacheese, Pomegranate, Oregano'
         },
         {
             id:  '4',
             name: 'CROISSAINT-EGGS-BENEDICT',
-            price: '28',
+            price: '31',
             image: C,
             details: 'croissaint, Pouched-eggs, Pepperoni, Mushroom, Hollandaise-sauce, Oregano'
         },
         {
             id:  '5',
             name: 'EGGS-BENEDICT',
-            price: '28',
+            price: '31',
             image: e,
             details: 'Soft-potato-bun, Pouched-eggs, Pepperoni, Mushroom, Hollandaise-sauce, Oregano'
         },
@@ -102,7 +102,7 @@ const Bfast = {
         {
             id:  '3',
             name: 'BUTTER-OMELETTE',
-            price: '24',
+            price: '27',
             image: B,
             details: 'Brown-toast, Omelette, Oregano, Mushroom, Cherry-Tomato'
         },
@@ -125,7 +125,7 @@ const Bfast = {
         {
             id:  '9',
             name: 'SCRAMBLED-EGGS',
-            price: '23',
+            price: '26',
             image: s,
             details: 'Croissaint, Scrambled-eggs, Pomegranate, Oregano'
         },
