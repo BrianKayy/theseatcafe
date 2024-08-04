@@ -12,7 +12,7 @@ import bp from './images/browniesP.JPG'
 import dc from './images/dateC.jpeg';
 import nc from './images/newyorkC.jpeg';
 import cc from './images/cheesecake.jpeg';
-import pc from './images/pistachioC.jpeg';
+import pc from './images/pistachioCookie.jpeg';
 const Dessert = {
     Desert:[
 
