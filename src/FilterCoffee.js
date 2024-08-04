@@ -23,10 +23,11 @@ const FilterCoffee = () => {
                   <div className='head'>
                     <h3>{filter.name}</h3>
                   </div>
+                  <h5 className='head'>AED {filter.price}</h5>
                   <div className='detail' >
                     {filter.details}
                   </div>
-                  <h5 className='head'>AED {filter.price}.00</h5>
+                  
                </div>
        )  
 

@@ -28,10 +28,11 @@ return( <div className="bfast">
            <div className='head'>
              <h3>{special.name}</h3>
            </div>
+           <h5 className='head'>AED {special.price}</h5>
            <div className='detail' >
              {special.details}
            </div>
-           <h5 className='head'>AED {special.price}.00</h5>
+
            
            
         </div>

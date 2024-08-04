@@ -23,10 +23,11 @@ const Desserts = () => {
                   <div className='head'>
                     <h3>{desserts.name}</h3>
                   </div>
+                  <h5 className='head'>AED {desserts.price}</h5>
                   <div className='detail' >
                     {desserts.details}
                   </div>
-                  <h5 className='head'>AED {desserts.price}.00</h5>
+                 
                </div>
        )  
 

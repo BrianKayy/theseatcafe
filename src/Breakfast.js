@@ -30,10 +30,11 @@ const  Breakfast = () => {
               <div className='head'>
                 <h3>{fast.name}</h3>
               </div>
+              <h5 className='head'>AED {fast.price}</h5>
               <div className='detail' >
                 {fast.details}
               </div>
-              <h5 className='head'>AED {fast.price}.00</h5>
+
               
               
            </div>

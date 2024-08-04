@@ -21,10 +21,11 @@ const ColdDrinks = () => {
                   <div className='head'>
                     <h3>{drink.name}</h3>
                   </div>
+                  <h5 className='head'>AED {drink.price}</h5>
                   <div className='detail' >
                     {drink.details}
                   </div>
-                  <h5 className='head'>AED {drink.price}.00</h5>
+                 
                </div>
        )  
 

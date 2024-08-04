@@ -11,56 +11,56 @@ const FilterC = {
        {
            id:  '1',
            name: 'HOT V- 60',
-           price: '23',
+           price: '24.15',
            image: v6,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '2',
            name: 'ICED V- 60',
-           price: '23',
+           price: '24.15',
            image: v,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '3',
            name: 'CHEMEX',
-           price: '26',
+           price: '27.3',
            image: c,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '4',
            name: 'AERO PRESS ',
-           price: '23',
+           price: '24.15',
            image: a,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '5',
            name: 'SYPHON',
-           price: '26',
+           price: '27.3',
            image: sp,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '6',
            name: 'COLD DRIP',
-           price: '23',
+           price: '24.15',
            image: cd,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '7',
            name: 'KALITA ',
-           price: '23',
+           price: '24.15',
            image: cl,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
         id:  '7',
         name: 'COLD BREW',
-        price: '23',
+        price: '24.15',
         image: cb,
         details: ''
     },

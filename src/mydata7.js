@@ -9,45 +9,45 @@ const T= {
        {
            id:  '1',
            name: 'CAMOMILE  BLOSSOMS TEA',
-           price: '17',
+           price: '17.85',
            image: c,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '2',
            name: 'ENGLISH CARAMEL TEA',
-           price: '17',
+           price: '17.85',
            image: cl,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
         id:  '2',
         name: 'ORGANIC ENGLISH BREAKFAST',
-        price: '17',
+        price: '17.85',
         image: e,
-        details: ''
+        details: 'all prices include 5% vat'
     },
        {
            id:  '3',
            name: 'LEMON GRASS & GINGER TEA',
-           price: '17',
+           price: '17.85',
            image: l,
-           details: ''
+           details: 'all prices include 5% vat'
        },
 
        {
         id:  '4',
         name: 'ENGLISH BREAKFAST TEA',
-        price: '17',
+        price: '17.85',
         image: b,
-        details: ''
+        details: 'all prices include 5% vat'
     },
     {
         id:  '5',
         name: 'ORGANIC GREEN TEA',
-        price: '17',
+        price: '17.85',
         image: o,
-        details: ''
+        details: 'all prices include 5% vat'
     },
      
    ]

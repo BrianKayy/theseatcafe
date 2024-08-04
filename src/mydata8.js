@@ -3,57 +3,57 @@ import m from './images/mojitoB.jpeg';
 import a from './images/acai box.jpeg';
 import c from './images/coffe-box.jpeg';
 import pm from './images/pava-medium.jpg'
-import pl from './images/pavaL.jpg'
+import pl from './images/pavaL.jpg';
 const Summer= {
     SummerSpecials:[
        {
            id:  '1',
            name: 'HIBISCUS BOTTLE',
-           price: '70',
+           price: '73.5',
            image: s,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '2',
            name: 'SPANISH LATTE BOTTLE',
-           price: '70',
+           price: '73.5',
            image: s,
            details: ''
        },
        {
            id:  '3',
            name: 'SUMMER COFFEE BOX ',
-           price: '95',
+           price: '99.75',
            image: c,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '4',
            name: 'SUMMER MOJITO BOX',
-           price: '85',
+           price: '89.25',
            image: m,
-           details: '10pieces'
+           details: 'all prices include 5% vat'
        },
        {
         id:  '4',
         name: 'SUMMER ACAI BOX',
-        price: '85',
+        price: '89.25',
         image: a,
-        details: '6 pieces'
+        details: 'all prices include 5% vat'
     },
     {
         id:  '5',
         name: 'PAVALOVA CAKE MEDIUM',
-        price: '105',
+        price: '110.25',
         image: pm,
-        details: ''
+        details: 'all prices include 5% vat'
        },    
         {
         id:  '5',
         name: 'PAVALOVA CAKE LARGE',
-        price: '150',
+        price: '157.5',
         image: pl,
-        details: ''
+        details: 'all prices include 5% vat'
        },
      
    ]

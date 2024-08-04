@@ -1,53 +1,53 @@
-import a from './images/Facai.jpg';
-import s from './images/Fsigna.jpg';
-import p from './images/Fpistachio.jpg';
-import o from './images/Foreo.jpg';
-import m from './images/Fmango.jpg';
-import uf from './images/ube frappe.jpeg';
+import a from './images/acaiSmmoth.jpg';
+import s from './images/signatureD.jpg';
+import p from './images/pistachioF.jpg';
+import o from './images/oreoFF.jpg';
+import m from './images/mangoF.jpg';
+import uf from './images/ubeFr.jpg';
  
 const Frapp= {
     Frap:[
        {
            id:  '1',
            name: 'PISTACHIO ',
-           price: '23',
+           price: '24.15',
            image: p,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '2',
            name: 'MANGO',
-           price: '24',
+           price: '25.2',
            image: m,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '3',
            name: 'SIGNATURE',
-           price: '21',
+           price: '22.05',
            image: s,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '4',
            name: 'OREO FRAPPE ',
-           price: '21',
+           price: '22.05',
            image: o,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '5',
            name: 'ACAI SMOOTHIE',
-           price: '25',
+           price: '26.25',
            image: a,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
         id:  '5',
         name: 'UBE FRAPPE',
-        price: '24',
+        price: '25.2',
         image: uf,
-        details: ''
+        details: 'all prices include 5% vat'
     },
        
    ]

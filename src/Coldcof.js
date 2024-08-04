@@ -1,9 +1,9 @@
-import sp from './images/spanishice.jpg';
-import a from './images/iceA.jpg';
-import m from './images/matchaC.jpg'
-import b from './images/blueSpanish.jpg';
-import u from './images/ube.jpeg';
-import fm from './images/foam matcha.jpeg';
+import sp from './images/icedCoffee.jpg';
+import a from './images/iceAm.jpg';
+import m from './images/IMatcha.jpg';
+import b from './images/blueSpanich.jpeg';
+// import u from './images/ube.jpeg';
+import fm from './images/foamM.jpg';
 import li from './images/long island.jpeg';
 const Coldcoffee = {
     Coldc:[
@@ -11,66 +11,66 @@ const Coldcoffee = {
         {
             id:  '6',
             name: 'FOAM MATCHA',
-            price: '28',
+            price: '29.4',
             image: fm,
             details: ''
         },
-           {
-            id:  '6',
-            name: 'UBE LATTE',
-            price: '22',
-            image: u,
-            details: ''
-        },
+        //    {
+        //     id:  '6',
+        //     name: '',
+        //     price: '23.1',
+        //     image: u,
+        //     details: 'all prices include 5% vat'
+        // },
         {
             id:  '6',
             name: 'LONG ISLAND',
-            price: '23',
+            price: '24.15',
             image: li,
-            details: ''
+            details: 'all prices include 5% vat'
         },
        {
            id:  '1',
            name: 'ICED AMERICANO',
-           price: '16',
+           price: '16.8',
            image: a,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '2',
            name: 'ICED LATTE',
-           price: '17',
+           price: '17.85',
            image: sp,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '3',
            name: 'Iced SPANISH LATTE',
-           price: '22',
+           price: '23.1',
            image: sp,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '4',
            name: 'BLUE SPANISH LATTE',
-           price: '24',
+           price: '25.2',
            image: b,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '5',
            name: 'ICE WHITE MOCHA',
-           price: '22',
+           price: '23.1',
            image: sp,
-           details: ''
+           details: 'all prices include 5% vat'
        },
       
        {
            id:  '6',
            name: 'ICED MATCHA LATTE',
-           price: '25',
+           price: '26.25',
            image: m,
-           details: ''
+           details: 'all prices include 5% vat'
        },
       
        

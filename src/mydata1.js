@@ -3,7 +3,7 @@ import hd from './images/hotdog.jpeg';
 // import mp from './images/mag.jpg';
 // import pp from './images/pepperoni.jpg';
 import ff from './images/fries.jpeg';
-import hdc from './images/hotDch.jpg';
+import hdc from './images/chicken hotdog.jpeg';
 const Specials = {
      Special:[
         // {
@@ -30,24 +30,24 @@ const Specials = {
         {
             id:  '12',
             name: 'FRIES',
-            price: '15',
+            price: '15.75',
             image: ff,
-            details: ''
+            details: 'all prices include 5% vat'
         },
 
         {
             id:  '13',
             name: 'HOT DOG CHICKEN',
-            price: '28',
+            price: '29.40',
             image: hdc,
-            details: ''
+            details: 'all prices include 5% vat'
         },
         {
             id:  '14',
             name: 'HOT DOG BEEF',
-            price: '28',
+            price: '29.40',
             image: hd,
-            details: ''
+            details: 'all prices include 5% vat'
         },
    
         

@@ -24,11 +24,12 @@ const {Frap}   = Frapp;
                     <h3>{frappe.name}</h3>
 
                   </div>
+                  <h5 className='head'>AED {frappe.price}</h5>
                   <div className='detail' >
                     {frappe.details}
                  
                   </div>
-                  <h5 className='head'>AED {frappe.price}.00</h5>
+                  
                </div>
        )  
 

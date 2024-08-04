@@ -24,11 +24,12 @@ const Tea = () => {
                     <h3>{tea.name}</h3>
 
                   </div>
+                  <h5 className='head'>AED {tea.price}</h5>
                   <div className='detail' >
                     {tea.details}
                     
                   </div>
-                  <h5 className='head'>AED {tea.price}.00</h5>
+                  
                </div>
        )  
 

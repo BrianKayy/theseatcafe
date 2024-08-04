@@ -1,133 +1,146 @@
-import av from './images/AvocadoT.jpeg';
-import br from './images/Brochette.jpeg';
-import B from './images/Butter omellet.jpeg';
-import C from './images/CroissaintEggB.jpeg';
-import e from './images/eggsB.jpeg';
+import av from './images/avocadoT.jpeg';
+import br from './images/Brochetta.jpeg';
+import B from './images/butterO.jpeg';
+import C from './images/croissaintB.jpeg';
+import e from './images/eggs benedct.jpeg';
 import m from './images/mashedA.jpeg';
 import n from './images/Nuttella toast.jpeg';
 import p from './images/Peanut toast.jpeg';
-import s from './images/Scrambled egg.jpeg';
-import t from './images/ToastS.jpeg';
-import ft from './images/FrenchB.jpeg';
-
+import s from './images/croissaint scrammbed.jpeg';
+import t from './images/toastS.jpeg';
+import ft from './images/frenchT.jpeg';
+import z from './images/zaatar.jpeg';
 import pc from './images/plain.jpg';
 import cc from './images/cheese.jpg';
 import nc from './images/nutella.jpg';
 import cp from './images/pistachioC.jpeg';
-
+import lft from './images/LotusFT.jpeg';
 const Bfast = {
      BreakFast:[
         {
             id:  '18',
             name: ' PLAIN CROISSAINT',
-            price: '10',
+            price: '10.50',
             image: pc,
-            details: ''
+            details: 'all prices include 5% vat'
+        },
+        {
+            id:  '18',
+            name: "ZA'ATAR CROISSAINT",
+            price: '10.50',
+            image: z,
+            details: 'all prices include 5% vat'
         },
         {
             id:  '19',
             name: ' NUTTELLA CROISSANT',
-            price: '10',
+            price: '10.50',
             image: nc,
-            details: ''
+            details: 'all prices include 5% vat'
         },
         {
             id:  '20',
             name: ' CHEESE CROISSAINT',
-            price: '10',
+            price: '10.50',
             image: cc,
-            details: ''
+            details: 'all prices include 5% vat'
         },
         {
             id:  '21',
             name: 'PISTACHIO CROISSANT ',
-            price: '15',
+            price: '15.75',
             image: cp,
-            details: ''
+            details: 'all prices include 5% vat'
         }, 
       
         {
             id:  '11',
             name: 'FRENCH TOAST',
-            price: '31',
+            price: '32.55',
             image: ft,
-            details: ''
+            details: 'all prices include 5% vat'
         },
-        
+        {
+            id:  '11',
+            name: 'LOTUS FRENCH TOAST',
+            price: '32.55',
+            image: lft,
+            details: 'all prices include 5% vat'
+        },
         {
             id:  '6',
             name: 'AVOCADO-TOAST',
-            price: '26',
+            price: '27.3',
             image: av,
-            details: 'Brown-toast, Avocado, Mushroom, Fetacheese, Smoked-cherry-tomato'
+            details: 'all prices include 5% vat'
         },
         {
             id:  '2',
-            name: 'BROCHETTE',
-            price: '24',
+            name: 'BROCHETTA',
+            price: '25.2',
             image: br,
-            details: 'Brown-toast, Green-pesto, Feta-cheese, Cherry-tomato, Balsimic'
+            details: 'all prices include 5% vat'
         },
        
         {
             id:  '1',
             name: 'MASHED-AVOCADO',
-            price: '31',
+            price: '32.55',
             image: m,
-            details: 'Brown-toast, Avocado, Feta-cheese, Pomegranate, Oregano'
+            details: 'all prices include 5% vat'
         },
         {
             id:  '10',
             name: 'TOAST-SCRAMBLED',
-            price: '31',
+            price: '32.55',
             image: t,
-            details: 'Brown-toast, Avocado, scrambled eggs, fetacheese, Pomegranate, Oregano'
+            details: 'all prices include 5% vat'
         },
         {
             id:  '4',
             name: 'CROISSAINT-EGGS-BENEDICT',
-            price: '31',
+            price: '32.55',
             image: C,
-            details: 'croissaint, Pouched-eggs, Pepperoni, Mushroom, Hollandaise-sauce, Oregano'
+            details: 'all prices include 5% vat'
         },
         {
             id:  '5',
             name: 'EGGS-BENEDICT',
-            price: '31',
+            price: '32.55',
             image: e,
-            details: 'Soft-potato-bun, Pouched-eggs, Pepperoni, Mushroom, Hollandaise-sauce, Oregano'
+            details: 'all prices include 5% vat'
         },
         
        
         {
             id:  '3',
             name: 'BUTTER-OMELETTE',
-            price: '27',
+            price: '28.35',
             image: B,
-            details: 'Brown-toast, Omelette, Oregano, Mushroom, Cherry-Tomato'
+            details: 'all prices include 5% vat'
         },
        
         
         {
             id:  '7',
             name: 'NUTELLA-TOAST',
-            price: '19',
+            price: '23.1',
             image: n,
-            details: 'Brown-toast, banana, Strawberries, Blueberries, Nutella,'
+            details: 'all prices include 5% vat'
         },
         {
             id:  '8',
             name: 'PEANUT-TOAST',
-            price: '19',
+            price: '23.1',
             image: p,
-            details: 'Brown-toast, banana, Strawberries, Blueberries, Peanut-butter'
+            details: 'all prices include 5% vat'
         },
         {
             id:  '9',
             name: 'SCRAMBLED-EGGS',
-            price: '26',
+            price: '27.3',
             image: s,
-            details: 'Croissaint, Scrambled-eggs, Pomegranate, Oregano'
+            details: 'all prices include 5% vat'
         },
        
       

@@ -1,61 +1,61 @@
 import p from './images/J1.jpg';
-import h from './images/Hibiscus.jpg';
-import s from './images/Smojito.jpg';
-import o from './images/orangeJ.jpg';
-import b from './images/Bmojito.jpg';
-import c from './images/cascara.jpeg';
+import h from './images/hibiscuss.jpeg';
+import s from './images/stawberryM.jpeg';
+import o from './images/orange.jpg';
+import b from './images/bluebberryM.jpeg';
+import c from './images/iceAm.jpg';
 import l from './images/lemonade.jpeg';
 const Juic  = {    
     juice:[
        {
            id:  '1',
            name: 'HIBISCUS',
-           price: '17',
+           price: '17.85',
            image: h,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '2',
            name: 'STRAWBERRY MOJITO',
-           price: '15',
+           price: '15.75',
            image: s,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '3',
            name: 'BLUEBERRY MOJITO',
-           price: '15',
+           price: '15.75',
            image: b,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
            id:  '4',
            name: 'PASSION FRUIT MOJITO ',
-           price: '15',
+           price: '15.75',
            image: p,
-           details: ''
+           details: 'all prices include 5% vat'
        },
       
        {
            id:  '5',
            name: 'CASCARA ',
-           price: '21',
+           price: '22.05',
            image: c,
-           details: ''
+           details: 'all prices include 5% vat'
        },
        {
         id:  '6',
         name: 'LEMONADE',
-        price: '21',
+        price: '22.05',
         image: l,
-        details: ''
+        details: 'all prices include 5% vat'
     },
     {
         id:  '7',
         name: 'FRESH ORANGE JUICE',
-        price: '16',
+        price: '16.8',
         image: o,
-        details: ''
+        details: 'all prices include 5% vat'
     },
       
    ]
