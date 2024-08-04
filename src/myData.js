@@ -7,7 +7,7 @@ import m from './images/mashedA.jpeg';
 import n from './images/Nuttella toast.jpeg';
 import p from './images/Peanut toast.jpeg';
 import s from './images/croissaint scrammbed.jpeg';
-import t from './images/toastS.jpeg';
+import t from './images/toast.jpeg';
 import ft from './images/frenchT.jpeg';
 import z from './images/zaatar.jpeg';
 import pc from './images/plain.jpg';
