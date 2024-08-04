@@ -1,4 +1,4 @@
-import av from './images/avocadoT.jpeg';
+import av from './images/av.jpeg';
 import br from './images/Brochetta.jpeg';
 import B from './images/butterO.jpeg';
 import C from './images/croissaintB.jpeg';
