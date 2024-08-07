@@ -52,7 +52,13 @@ const Bfast = {
             image: cp,
             details: 'all prices include 5% vat'
         }, 
-      
+        {
+            id:  '2',
+            name: 'BROCHETTA',
+            price: '25.2',
+            image: br,
+            details: 'all prices include 5% vat'
+        },
         {
             id:  '11',
             name: 'FRENCH TOAST',
@@ -68,32 +74,17 @@ const Bfast = {
             details: 'all prices include 5% vat'
         },
         {
-            id:  '6',
-            name: 'AVOCADO-TOAST',
-            price: '27.3',
-            image: av,
-            details: 'all prices include 5% vat'
-        },
-        {
-            id:  '2',
-            name: 'BROCHETTA',
-            price: '25.2',
-            image: br,
-            details: 'all prices include 5% vat'
-        },
-       
-        {
-            id:  '1',
-            name: 'MASHED-AVOCADO',
-            price: '32.55',
-            image: m,
-            details: 'all prices include 5% vat'
-        },
-        {
             id:  '10',
             name: 'TOAST-SCRAMBLED',
             price: '32.55',
             image: t,
+            details: 'all prices include 5% vat'
+        },
+        {
+            id:  '9',
+            name: 'SCRAMBLED-EGGS',
+            price: '27.3',
+            image: s,
             details: 'all prices include 5% vat'
         },
         {
@@ -110,16 +101,22 @@ const Bfast = {
             image: e,
             details: 'all prices include 5% vat'
         },
-        
-       
         {
-            id:  '3',
-            name: 'BUTTER-OMELETTE',
-            price: '28.35',
-            image: B,
+            id:  '6',
+            name: 'AVOCADO-TOAST',
+            price: '27.3',
+            image: av,
             details: 'all prices include 5% vat'
         },
        
+       
+        {
+            id:  '1',
+            name: 'MASHED-AVOCADO',
+            price: '32.55',
+            image: m,
+            details: 'all prices include 5% vat'
+        },
         
         {
             id:  '7',
@@ -135,13 +132,15 @@ const Bfast = {
             image: p,
             details: 'all prices include 5% vat'
         },
+       
         {
-            id:  '9',
-            name: 'SCRAMBLED-EGGS',
-            price: '27.3',
-            image: s,
+            id:  '3',
+            name: 'BUTTER-OMELETTE',
+            price: '28.35',
+            image: B,
             details: 'all prices include 5% vat'
         },
+       
        
       
     ]
