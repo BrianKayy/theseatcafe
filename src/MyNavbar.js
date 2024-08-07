@@ -18,9 +18,9 @@ const MyNavbar = () => {
        <NavLink to="/Ice Cream">ICE CREAM</NavLink>
        <NavLink to="/ColdCoffee"   >COLD DRINKS</NavLink >
        <NavLink  to="/Juice"   > JUICES </NavLink > 
-       <NavLink  to="/New"   >GATHERING SPECIALS</NavLink >
        <NavLink to="/FilterCoffee"   >FILTER COFFEE</NavLink >
       <NavLink to="/Frappe"   >FRAPPE</NavLink >
+      <NavLink  to="/New"   >GATHERING SPECIALS</NavLink >
      <NavLink to="/ColdDrinks"  >SOFT DRINKS</NavLink > 
     
       </div>
