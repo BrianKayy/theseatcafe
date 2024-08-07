@@ -21,7 +21,7 @@ const MyNavbar = () => {
        <NavLink to="/FilterCoffee"   >FILTER COFFEE</NavLink >
       <NavLink to="/Frappe"   >FRAPPE</NavLink >
       <NavLink  to="/New"   >GATHERING SPECIALS</NavLink >
-     <NavLink to="/ColdDrinks"  >SOFT DRINKS</NavLink > 
+     <NavLink to="/ColdDrinks"  >WATER</NavLink > 
     
       </div>
       </div></div>
