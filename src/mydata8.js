@@ -4,6 +4,7 @@ import a from './images/acai box.jpeg';
 import c from './images/coffe-box.jpeg';
 import pm from './images/pava-medium.jpg'
 import pl from './images/pavaL.jpg';
+import ck from './images/cookiesn.jpeg'
 const Summer= {
     SummerSpecials:[
        {
@@ -34,6 +35,13 @@ const Summer= {
            image: m,
            details: 'all prices include 5% vat'
        },
+       {
+        id:  '4',
+        name: 'COOKIE  BOX',
+        price: '105',
+        image: ck,
+        details: 'all prices include 5% vat'
+    },
        {
         id:  '4',
         name: 'SUMMER ACAI BOX',
