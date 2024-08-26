@@ -15,7 +15,6 @@ font-family: 'Roboto Condensed', sans-serif;
   box-sizing: border-box;
  
 }
-
 .navbar{
   margin: 0;
   width: 100%;
@@ -24,6 +23,7 @@ font-family: 'Roboto Condensed', sans-serif;
   background-color: #141619;
   /* background: linear-gradient(to right, #868f96 0%, #37393a  100%); */
 }
+
 
 .navbar .top{
   display: flex;
@@ -116,8 +116,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 @media only screen and (max-width: 600px) {
 	.navbar{
-    background: #222
-    ;
+    background: #222 ;
     margin: 0;
     display: block;  
   }

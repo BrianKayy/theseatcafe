@@ -60,7 +60,7 @@ const Coldcoffee = {
        {
            id:  '5',
            name: 'ICE WHITE MOCHA',
-           price: '23.1',
+           price: '27.30',
            image: sp,
            details: 'all prices include 5% vat'
        },

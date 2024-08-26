@@ -8,7 +8,6 @@ const MyNavbar = () => {
   return (
     <div className="nav">
     <div className="bottom"  >
-    <i class="fa-solid fa-right-left"></i>
       <div className='new'  >
         <NavLink to="/Breakfast"    >BREAKFAST</NavLink >
         <NavLink to="/WinterSpecials"  >DINNER</NavLink > 

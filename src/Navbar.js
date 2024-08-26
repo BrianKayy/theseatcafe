@@ -13,7 +13,6 @@ const Navbar = () => {
             <NavLink to="/Contact">CONTACT</NavLink>
             </div>
         </div>
-        
     </div>
   )
 }

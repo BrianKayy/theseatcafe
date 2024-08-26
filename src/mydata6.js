@@ -1,4 +1,4 @@
-import p from './images/J1.jpg';
+import p from './images/Passn.jpeg';
 import h from './images/hibiscuss.jpeg';
 import s from './images/stawberryM.jpeg';
 import o from './images/or.jpg';
