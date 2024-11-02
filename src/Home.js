@@ -1,5 +1,5 @@
 import React from 'react';
-import Cream from './Cream';
+import Breakfast from './Breakfast';
 
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
 
   return (
       <div className='home'>
-        <Cream />
+        <Breakfast />
     </div>
   ) 
 }

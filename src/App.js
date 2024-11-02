@@ -14,7 +14,7 @@ import Juice from "./Juice";
 import ColdCoffee from './ColdCoffee';
 import New from './New';
 import Tea from './Tea';
-import Cream from "./Cream";
+// import Cream from "./Cream";
 import Frappe from './Frappe';
 import WinterSpecials from "./WinterSpecials";
 import Loader from "./Loader";
@@ -56,7 +56,7 @@ function App() {
               <Route path="Frappe"  element={<Frappe/>}/>
               <Route path="Juice"  element={<Juice/>}/>
               <Route path="FilterCoffee"  element={<FilterCoffee/>}/>
-              <Route path= "Ice Cream" element={<Cream/>}/>
+              {/* <Route path= "Ice Cream" element={<Cream/>}/> */}
              </Routes>
               <Footer/>
         </div>

@@ -1,32 +1,32 @@
 import hd from './images/hotdog.jpeg';
-// import ms from './images/mushroom.jpg';
-// import mp from './images/mag.jpg';
-// import pp from './images/pepperoni.jpg';
+import ms from './images/mushroom.jpg';
+import mp from './images/mag.jpg';
+import pp from './images/pepperoni.jpg';
 import ff from './images/fries.jpeg';
 import hdc from './images/chicken hotdog.jpeg';
 const Specials = {
      Special:[
-        // {
-        //     id:  '16',
-        //     name: 'PEPPERONI PIZZA ',
-        //     price: '30',
-        //     image: pp,
-        //     details: ''
-        // },
-        // {
-        //     id:  '17',
-        //     name: 'MUSHROOM PIZZA',
-        //     price: '31',
-        //     image: ms,
-        //     details: ''
-        // },
-        // {
-        //     id:  '15',
-        //     name: 'MARGARITA PIZZA',
-        //     price: '28',
-        //     image: mp,
-        //     details: ''
-        // },
+        {
+            id:  '16',
+            name: 'PEPPERONI PIZZA ',
+            price: '31.50',
+            image: pp,
+            details: 'all prices include 5% vat'
+        },
+        {
+            id:  '17',
+            name: 'MUSHROOM PIZZA',
+            price: '32.55',
+            image: ms,
+            details: 'all prices include 5% vat'
+        },
+        {
+            id:  '15',
+            name: 'MARGARITA PIZZA',
+            price: '29.40',
+            image: mp,
+            details: 'all prices include 5% vat'
+        },
         {
             id:  '12',
             name: 'FRIES',

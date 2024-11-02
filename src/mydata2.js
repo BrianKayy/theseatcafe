@@ -4,8 +4,8 @@ import p from './images/pavalovan.jpeg';
 // import dv from './images/datesc.jpg';
 import kr from './images/rockyn.jpeg';
 import se from './images/san sebasian.jpeg';
-import br from './images/brownies.JPG'
-import bp from './images/browniesP.JPG'
+// import br from './images/brownies.JPG'
+// import bp from './images/browniesP.JPG'
 // import d from './images/datec.jpg';
 // import sc from './images/Smores cho.jpeg';
 // import sp from './images/sensebastian.jpg';
@@ -37,13 +37,13 @@ const Dessert = {
         image: a,
         details: 'all prices include 5% vat'
     },
-       {
-           id:  '2',
-           name: 'BROWNIES',
-           price: '12.6',
-           image: br,
-           details: 'all prices include 5% vat'
-       },
+    //    {
+    //        id:  '2',
+    //        name: 'BROWNIES',
+    //        price: '12.6',
+    //        image: br,
+    //        details: 'all prices include 5% vat'
+    //    },
        {
         id:  '2',
         name: 'DATE COOKIE',
@@ -58,13 +58,13 @@ const Dessert = {
         image: pc,
         details: 'all prices include 5% vat'
     },
-       {
-        id:  '2',
-        name: 'BROWNIES PEANUT',
-        price: '12.6',
-        image: bp,
-        details: 'all prices include 5% vat'
-    },
+    //    {
+    //     id:  '2',
+    //     name: 'BROWNIES PEANUT',
+    //     price: '12.6',
+    //     image: bp,
+    //     details: 'all prices include 5% vat'
+    // },
     //    {
     //        id:  '3',
     //        name: 'DATES CAKE',

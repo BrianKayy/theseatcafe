@@ -15,7 +15,7 @@ const Cdrink = {
        {
            id:  '2',
            name: 'SPARKLING WATER',
-           price: '5.25',
+           price: '7.15',
            image: w,
            details: 'all prices include 5% vat'
        },

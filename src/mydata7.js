@@ -2,7 +2,7 @@ import c from './images/camomile.jpeg';
 import e from './images/englishT.jpeg';
 import l from './images/lemonG.jpeg';
 import o from  './images/englishtea.jpeg';
-import b from './images/englishB.jpeg';
+
 import cl from './images/caramel.jpeg'
 const T= {
     TeA:[
@@ -37,9 +37,9 @@ const T= {
 
        {
         id:  '4',
-        name: 'ENGLISH BREAKFAST TEA',
+        name: 'PAPER MINT TEA',
         price: '17.85',
-        image: b,
+        image: "",
         details: 'all prices include 5% vat'
     },
     {
