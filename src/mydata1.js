@@ -4,6 +4,11 @@ import mp from './images/mag.jpg';
 import pp from './images/pepperoni.jpg';
 import ff from './images/fries.jpeg';
 import hdc from './images/chicken hotdog.jpeg';
+import a from './images/arabiata.jpg';
+import as from './images/arabshrmp.jpg';
+import s from './images/spaggtshrmp.jpg';
+import p from './images/peneC.jpg';
+
 const Specials = {
      Special:[
         {
@@ -49,9 +54,41 @@ const Specials = {
             image: hd,
             details: 'all prices include 5% vat'
         },
-   
-        
-    
+        {
+            id:  '13',
+            name: 'PENE CHICKEN(white sauce)',
+            price: '36.75',
+            image: p,
+            details: 'all prices include 5% vat'
+        },
+        {
+            id:  '14',
+            name: 'PENE CHICKEN(red sauce)',
+            price: '36.75',
+            image: a,
+            details: 'all prices include 5% vat'
+        },
+        {
+            id:  '13',
+            name: 'SPAGHETTI(shrimps)',
+            price: '44.10',
+            image: s,
+            details: 'all prices include 5% vat'
+        },
+        {
+            id:  '14',
+            name: 'SPAGHETTI(chicken)',
+            price: '36.75',
+            image: s,
+            details: 'all prices include 5% vat'
+        },
+        {
+            id:  '13',
+            name: 'PASTA ARABIATA(shrimps)',
+            price: '44.10',
+            image: as,
+            details: 'all prices include 5% vat'
+        },
     ]
 }
 

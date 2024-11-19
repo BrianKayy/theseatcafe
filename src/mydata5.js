@@ -7,6 +7,7 @@ import m from './images/matchaH.jpg';
 import sp from './images/hotSpanish.jpeg';
 // import h from './images/hotchoco.jpeg'
 // import sh from './images/hotcS.jpeg';
+import cl from './images/cinamonL.jpg';
 import e from './images/essprssoh.jpeg';
 import ct from './images/cortado.jpeg';
 import c from './images/cortadon.jpeg';
@@ -54,6 +55,13 @@ const HotCoffe = {
         name: 'FLAT WHITE ',
         price: '17.85',
         image: f,
+        details: 'all prices include 5% vat'
+    },
+    {
+        id:  '6',
+        name: 'CINAMON LATTE',
+        price: '26.25',
+        image: cl,
         details: 'all prices include 5% vat'
     },
     {

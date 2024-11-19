@@ -10,6 +10,9 @@ import se from './images/san sebasian.jpeg';
 // import sc from './images/Smores cho.jpeg';
 // import sp from './images/sensebastian.jpg';
 import dc from './images/dateC.jpeg';
+import g from './images/granola.jpg';
+import gk from './images/greek frt.jpg';
+import mhc from './images/MHC.jpg';
 import nc from './images/newyorkC.jpeg';
 import cc from './images/cheesecake.jpeg';
 import pc from './images/pistachioCookie.jpeg';
@@ -18,18 +21,39 @@ const Dessert = {
 
         {
             id:  '2',
-            name: 'CHEESE CAKE',
-            price: '30.45',
-            image: cc,
+            name: 'GREEK YOGHURT GRANOLA',
+            price: '21.00',
+            image: g,
             details: 'all prices include 5% vat'
         },
        {
            id:  '1',
-           name: ' KINDER COOKIE',
-           price: '10.5',
-           image: c,
+           name: ' GREEK YOGHURT FRUITS',
+           price: '21.00',
+           image: gk,
            details: 'all prices include 5% vat'
        },
+       {
+        id:  '1',
+        name: 'MOLTEN HAZZLENUT CAKE',
+        price: '24.15',
+        image: mhc,
+        details: 'all prices include 5% vat'
+    },
+       {
+        id:  '2',
+        name: 'CHEESE CAKE',
+        price: '30.45',
+        image: cc,
+        details: 'all prices include 5% vat'
+    },
+   {
+       id:  '1',
+       name: ' KINDER COOKIE',
+       price: '10.5',
+       image: c,
+       details: 'all prices include 5% vat'
+   },
        {
         id:  '8',
         name: 'ACAI BOWL',
