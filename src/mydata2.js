@@ -22,14 +22,14 @@ const Dessert = {
         {
             id:  '2',
             name: 'GREEK YOGHURT GRANOLA',
-            price: '21.00',
+            price: '28.00',
             image: g,
             details: 'all prices include 5% vat'
         },
        {
            id:  '1',
            name: ' GREEK YOGHURT FRUITS',
-           price: '21.00',
+           price: '32.00',
            image: gk,
            details: 'all prices include 5% vat'
        },

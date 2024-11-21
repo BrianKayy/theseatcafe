@@ -92,6 +92,7 @@ const Bfast = {
             name: 'CROISSAINT-EGGS-BENEDICT',
             price: '32.55',
             image: C,
+            details: 'ADD BACON + AED10.00',
             details: 'all prices include 5% vat'
         },
         {
@@ -99,6 +100,7 @@ const Bfast = {
             name: 'EGGS-BENEDICT',
             price: '32.55',
             image: e,
+            details: 'ADD BACON + AED10.00',
             details: 'all prices include 5% vat'
         },
         {

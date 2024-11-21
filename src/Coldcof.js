@@ -68,7 +68,7 @@ const Coldcoffee = {
        {
            id:  '6',
            name: 'ICED MATCHA LATTE',
-           price: '26.25',
+           price: '27.30',
            image: m,
            details: 'all prices include 5% vat'
        },
