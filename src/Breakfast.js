@@ -32,6 +32,9 @@ const  Breakfast = () => {
               </div>
               <h5 className='head'>AED {fast.price}</h5>
               <div className='detail' >
+                {fast.news}
+              </div>
+              <div className='detail' >
                 {fast.details}
               </div>
 
