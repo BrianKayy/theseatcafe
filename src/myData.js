@@ -8,13 +8,13 @@ import n from './images/Nuttella toast.jpeg';
 import p from './images/Peanut toast.jpeg';
 import s from './images/croissaint scrammbed.jpeg';
 import t from './images/toast.jpeg';
-import ft from './images/frenchT.jpeg';
+
 import z from './images/zaatar.jpeg';
 import pc from './images/plain.jpg';
 import cc from './images/cheese.jpg';
 import nc from './images/nutella.jpg';
 import cp from './images/pistachioC.jpeg';
-import lft from './images/LotusFT.jpeg';
+
 const Bfast = {
      BreakFast:[
         {
@@ -59,20 +59,7 @@ const Bfast = {
             image: br,
             details: 'all prices include 5% vat'
         },
-        {
-            id:  '11',
-            name: 'FRENCH TOAST',
-            price: '32.55',
-            image: ft,
-            details: 'all prices include 5% vat'
-        },
-        {
-            id:  '11',
-            name: 'LOTUS FRENCH TOAST',
-            price: '32.55',
-            image: lft,
-            details: 'all prices include 5% vat'
-        },
+       
         {
             id:  '10',
             name: 'TOAST-SCRAMBLED',

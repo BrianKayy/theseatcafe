@@ -10,6 +10,8 @@ import se from './images/san sebasian.jpeg';
 // import sc from './images/Smores cho.jpeg';
 // import sp from './images/sensebastian.jpg';
 import dc from './images/dateC.jpeg';
+import ft from './images/frenchT.jpeg';
+import lft from './images/LotusFT.jpeg';
 import g from './images/granola.jpg';
 import gk from './images/greek frt.jpg';
 import mhc from './images/MHC.jpg';
@@ -54,6 +56,20 @@ const Dessert = {
        image: c,
        details: 'all prices include 5% vat'
    },
+   {
+    id:  '11',
+    name: 'FRENCH TOAST',
+    price: '32.55',
+    image: ft,
+    details: 'all prices include 5% vat'
+},
+{
+    id:  '11',
+    name: 'LOTUS FRENCH TOAST',
+    price: '32.55',
+    image: lft,
+    details: 'all prices include 5% vat'
+},
        {
         id:  '8',
         name: 'ACAI BOWL',
