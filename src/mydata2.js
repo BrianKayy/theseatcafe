@@ -2,7 +2,7 @@ import  a from './images/acai.jpg';
 import c from './images/kinder.jpeg';
 import p from './images/pavalovan.jpeg';
 // import dv from './images/datesc.jpg';
-import kr from './images/rockyn.jpeg';
+import kr from './images/rokkkyy.jpeg';
 import se from './images/san sebasian.jpeg';
 // import br from './images/brownies.JPG'
 // import bp from './images/browniesP.JPG'
@@ -14,7 +14,6 @@ import ft from './images/frenchT.jpeg';
 import lft from './images/LotusFT.jpeg';
 import g from './images/granola.jpg';
 import gk from './images/greek frt.jpg';
-import mhc from './images/MHC.jpg';
 import nc from './images/newyorkC.jpeg';
 import cc from './images/cheesecake.jpeg';
 import pc from './images/pistachioCookie.jpeg';
@@ -35,13 +34,6 @@ const Dessert = {
            image: gk,
            details: 'all prices include 5% vat'
        },
-       {
-        id:  '1',
-        name: 'MOLTEN HAZZLENUT CAKE',
-        price: '24.15',
-        image: mhc,
-        details: 'all prices include 5% vat'
-    },
        {
         id:  '2',
         name: 'CHEESE CAKE',
