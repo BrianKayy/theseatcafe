@@ -1,22 +1,22 @@
 import  a from './images/acai.jpg';
-import c from './images/kinder.jpeg';
+import c from './images/rokkkyy.jpeg';
 import p from './images/pavalovan.jpeg';
 // import dv from './images/datesc.jpg';
-import kr from './images/rokkkyy.jpeg';
+import kr from './images/rockyn.jpeg';
 import se from './images/san sebasian.jpeg';
 // import br from './images/brownies.JPG'
 // import bp from './images/browniesP.JPG'
 // import d from './images/datec.jpg';
 // import sc from './images/Smores cho.jpeg';
 // import sp from './images/sensebastian.jpg';
-import dc from './images/dateC.jpeg';
+// import dc from './images/dateC.jpeg';
 import ft from './images/frenchT.jpeg';
 import lft from './images/LotusFT.jpeg';
 import g from './images/granola.jpg';
 import gk from './images/greek frt.jpg';
-import nc from './images/newyorkC.jpeg';
+// import nc from './images/newyorkC.jpeg';
 import cc from './images/cheesecake.jpeg';
-import pc from './images/pistachioCookie.jpeg';
+// import pc from './images/pistachioCookie.jpeg';
 const Dessert = {
     Desert:[
 
@@ -43,7 +43,7 @@ const Dessert = {
     },
    {
        id:  '1',
-       name: ' KINDER COOKIE',
+       name: ' BROWNIE',
        price: '10.5',
        image: c,
        details: 'all prices include 5% vat'
@@ -76,20 +76,20 @@ const Dessert = {
     //        image: br,
     //        details: 'all prices include 5% vat'
     //    },
-       {
-        id:  '2',
-        name: 'DATE COOKIE',
-        price: '12.6',
-        image: dc,
-        details: 'all prices include 5% vat'
-    },
-    {
-        id:  '2',
-        name: 'PISTACHIO COOKIE',
-        price: '12.6',
-        image: pc,
-        details: 'all prices include 5% vat'
-    },
+    //    {
+    //     id:  '2',
+    //     name: 'DATE COOKIE',
+    //     price: '12.6',
+    //     image: dc,
+    //     details: 'all prices include 5% vat'
+    // },
+    // {
+    //     id:  '2',
+    //     name: 'PISTACHIO COOKIE',
+    //     price: '12.6',
+    //     image: pc,
+    //     details: 'all prices include 5% vat'
+    // },
     //    {
     //     id:  '2',
     //     name: 'BROWNIES PEANUT',
@@ -112,13 +112,13 @@ const Dessert = {
     //        image: dv,
     //        details: ''
     //    },
-       {
-        id:  '2',
-        name: 'NEW YORK COOKIE',
-        price: '14.7',
-        image: nc,
-        details: 'all prices include 5% vat'
-    },
+    //    {
+    //     id:  '2',
+    //     name: 'NEW YORK COOKIE',
+    //     price: '14.7',
+    //     image: nc,
+    //     details: 'all prices include 5% vat'
+    // },
        {
            id:  '5',
            name: 'PAVALOVA CAKE',
