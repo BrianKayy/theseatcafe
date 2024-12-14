@@ -44,7 +44,7 @@ const Dessert = {
    {
        id:  '1',
        name: ' BROWNIE',
-       price: '10.5',
+       price: '24.15',
        image: c,
        details: 'all prices include 5% vat'
    },
