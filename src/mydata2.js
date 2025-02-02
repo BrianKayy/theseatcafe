@@ -6,7 +6,7 @@ import kr from './images/rockyn.jpeg';
 import se from './images/san sebasian.jpeg';
 // import br from './images/brownies.JPG'
 // import bp from './images/browniesP.JPG'
-// import d from './images/datec.jpg';
+  import d from './images/kinder.jpeg';
 // import sc from './images/Smores cho.jpeg';
 // import sp from './images/sensebastian.jpg';
 import dc from './images/dateC.jpeg';
@@ -69,13 +69,13 @@ const Dessert = {
         image: a,
         details: 'all prices include 5% vat'
     },
-    //    {
-    //        id:  '2',
-    //        name: 'BROWNIES',
-    //        price: '12.6',
-    //        image: br,
-    //        details: 'all prices include 5% vat'
-    //    },
+       {
+           id:  '2',
+           name: 'KINDER COOKIE',
+           price: '13.65',
+           image: d,
+           details: 'all prices include 5% vat'
+       },
         {
         id:  '2',
         name: 'DATE COOKIE',
