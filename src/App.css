@@ -1122,7 +1122,7 @@ button .top-btn-position{
   height: 28px;
   margin: 2px;
   border-radius: 0px;
-  background: #000;
+  background: #6F4E37;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1165,7 +1165,7 @@ button .top-btn-position{
   justify-content: center;
   align-items: center;
   font-size: 27px;
-  color: #000;
+  color: #6F4E37;
   text-align: center;
   font-family: "Merriweather", serif;
   font-weight: 900;
