@@ -18,8 +18,8 @@ const Loader = () => {
 </div>
       </div>
       
-<div className='cafe'> <span className='caffee'>WELCOME TO <br /> <br />THE SEAT CAFE <br /> 
-            <br />  EST-2021  </span> </div>
+<div className='cafe'> <span className='caffee'>  WELCOME TO <br /> THE SEAT CAFE <br /> 
+            <br />  Est-2021  </span> </div>
 
               {/* <div className="photo">
                 <img src={loader} alt="summertip" />

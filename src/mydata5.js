@@ -27,70 +27,70 @@ const HotCoffe = {
            name: 'SINGLE ESPRESO',
            price: '12.6',
            image: s,
-           details: 'all prices include 5% vat'
+           details: 'all prices include 5% VAT'
        },
        {
            id:  '3',
            name: 'MACHIATTO',
            price: '16.8',
            image: mc,
-           details: 'all prices include 5% vat'
+           details: 'all prices include 5% VAT'
        },
        {
            id:  '4',
            name: 'PICOLLO ',
            price: '16.8',
            image: p,
-           details: 'all prices include 5% vat'
+           details: 'all prices include 5% VAT'
        },
        {
            id:  '5',
            name: 'CORTADO',
            price: '17.85',
            image: c,
-           details: 'all prices include 5% vat'
+           details: 'all prices include 5% VAT'
        },
        {
         id:  '6',
         name: 'FLAT WHITE ',
         price: '17.85',
         image: f,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
     {
         id:  '6',
         name: 'CINAMON LATTE',
         price: '26.25',
         image: cl,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
     {
         id:  '7',
         name: 'AMERICANO',
         price: '15.75',
         image: a,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
     {
         id:  '8',
         name: 'CAPUCCINO',
         price: '17.85',
         image: cp,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
     {
         id:  '9',
         name: 'LATTE ',
         price: '17.85',
         image: lt,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
     {
         id:  '10',
         name: 'HOT SPANISH LATTE',
         price: '22.05',
         image: lt,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
     // {
     //     id:  '11',
@@ -111,35 +111,35 @@ const HotCoffe = {
         name: 'HOT MATCHA LATTE',
         price: '25.2',
         image: m,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
     {
         id:  '14',
         name: 'HOT SAFFRON LATTE ',
         price: '23.1',
         image: sp,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
     {
         id:  '15',
         name: 'HOT WHITE MOCHA',
         price: '23.1',
         image: lt,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
     {
         id:  '16',
         name: 'HOT MOCHA ',
         price: '23.1',
         image: lt,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
     {
         id:  '17',
         name: 'SPANISH CORTADO',
         price: '18.9',
         image: ct,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
     
        

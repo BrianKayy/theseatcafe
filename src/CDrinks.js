@@ -10,35 +10,35 @@ const Cdrink = {
            name: 'VOSS STILL WATER',
            price: '10.50',
            image: v,
-           details: 'all prices include 5% vat'
+           details: 'all prices include 5% VAT'
        },
        {
            id:  '2',
            name: 'SPARKLING WATER',
            price: '7.15',
            image: w,
-           details: 'all prices include 5% vat'
+           details: 'all prices include 5% VAT'
        },
     //    {
     //        id:  '3',
     //        name: 'COCA COLA',
     //        price: '5.25',
     //        image: c,
-    //        details: 'all prices include 5% vat'
+    //        details: 'all prices include 5% VAT'
     //    },
     //    {
     //        id:  '4',
     //        name: '7Up',
     //        price: '5.25',
     //        image: u,
-    //        details: 'all prices include 5% vat'
+    //        details: 'all prices include 5% VAT'
     //    },
     //    {
     //        id:  '5',
     //        name: 'PEPSI',
     //        price: '5.25',
     //        image: p,
-    //        details: 'all prices include 5% vat'
+    //        details: 'all prices include 5% VAT'
     //    },
      
    ]

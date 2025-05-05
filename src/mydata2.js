@@ -25,77 +25,77 @@ const Dessert = {
             name: 'GREEK YOGHURT GRANOLA',
             price: '28.00',
             image: g,
-            details: 'all prices include 5% vat'
+            details: 'all prices include 5% VAT'
         },
        {
            id:  '1',
            name: ' GREEK YOGHURT FRUITS',
            price: '32.00',
            image: gk,
-           details: 'all prices include 5% vat'
+           details: 'all prices include 5% VAT'
        },
        {
         id:  '2',
         name: 'CHEESE CAKE',
         price: '30.45',
         image: cc,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
    {
        id:  '1',
        name: ' BROWNIE',
        price: '24.15',
        image: c,
-       details: 'all prices include 5% vat'
+       details: 'all prices include 5% VAT'
    },
    {
     id:  '11',
     name: 'FRENCH TOAST',
     price: '32.55',
     image: ft,
-    details: 'all prices include 5% vat'
+    details: 'all prices include 5% VAT'
 },
 {
     id:  '11',
     name: 'LOTUS FRENCH TOAST',
     price: '32.55',
     image: lft,
-    details: 'all prices include 5% vat'
+    details: 'all prices include 5% VAT'
 },
        {
         id:  '8',
         name: 'ACAI BOWL',
         price: '28.35',
         image: a,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
        {
            id:  '2',
            name: 'KINDER COOKIE',
            price: '13.65',
            image: d,
-           details: 'all prices include 5% vat'
+           details: 'all prices include 5% VAT'
        },
         {
         id:  '2',
         name: 'DATE COOKIE',
         price: '12.6',
         image: dc,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
     {
         id:  '2',
         name: 'PISTACHIO COOKIE',
         price: '12.6',
         image: pc,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
     //    {
     //     id:  '2',
     //     name: 'BROWNIES PEANUT',
     //     price: '12.6',
     //     image: bp,
-    //     details: 'all prices include 5% vat'
+    //     details: 'all prices include 5% VAT'
     // },
     //    {
     //        id:  '3',
@@ -117,21 +117,21 @@ const Dessert = {
         name: 'NEW YORK COOKIE',
         price: '14.7',
         image: nc,
-        details: 'all prices include 5% vat'
+        details: 'all prices include 5% VAT'
     },
        {
            id:  '5',
            name: 'PAVALOVA CAKE',
            price: '22.05',
            image: p,
-           details: 'all prices include 5% vat'
+           details: 'all prices include 5% VAT'
        },
        {
            id:  '6',
            name: 'SAN SEBASTIAN',
            price: '22.05',
            image: se,
-           details: 'all prices include 5% vat'
+           details: 'all prices include 5% VAT'
        },
     //    {
     //     id:  '3',
@@ -152,7 +152,7 @@ const Dessert = {
            name: 'ROCKY ROAD',
            price: '24.15',
            image: kr,
-           details:'all prices include 5% vat'
+           details:'all prices include 5% VAT'
        },
        
        
