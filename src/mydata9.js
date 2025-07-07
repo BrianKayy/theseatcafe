@@ -5,7 +5,7 @@ import mt from './images/loz.jpeg';
 import ma from './images/imango.jpg';
 import mm from './images/imangoM.jpg';
 import ms from './images/lv.jpeg';
-
+import mc from './images/mcoconut.JPG'
 
 
 
@@ -15,6 +15,12 @@ const iceCream = {
             name: 'MANGO',
             price: '13.65',
             image: ma,
+            details: 'all prices include 5% VAT'
+        },
+        { id:  '1',
+            name: 'MANGO COCONUT',
+            price: '17.00',
+            image: mc,
             details: 'all prices include 5% VAT'
         },
         { id:  '1',
