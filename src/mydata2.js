@@ -17,8 +17,19 @@ import gk from './images/greek frt.jpg';
 import nc from './images/newyorkC.jpeg';
 import cc from './images/cheesecake.jpeg';
 import pc from './images/pistachioCookie.jpeg';
+import b from './images/banana.JPG';
+import pfc from './images/passion.JPG';
 const Dessert = {
     Desert:[
+
+
+         {
+            id:  '2',
+            name: 'PASSIONFRUIT CHEESECAKE',
+            price: '30.00',
+            image: pfc,
+            details: 'all prices include 5% VAT'
+        },
 
         {
             id:  '2',
@@ -34,6 +45,13 @@ const Dessert = {
            image: gk,
            details: 'all prices include 5% VAT'
        },
+        {
+            id:  '2',
+            name: 'BANANA PUDDING',
+            price: '36.75',
+            image: b,
+            details: 'all prices include 5% VAT'
+        },
        {
         id:  '2',
         name: 'CHEESE CAKE',
@@ -129,7 +147,7 @@ const Dessert = {
        {
            id:  '6',
            name: 'SAN SEBASTIAN',
-           price: '22.05',
+           price: '30.00',
            image: se,
            details: 'all prices include 5% VAT'
        },

@@ -145,7 +145,7 @@ font-family: 'Roboto Condensed', sans-serif;
   .navbar .top img{
     width: 100px;
     height: 45px;
-    border-radius: 10px;
+    border-radius: 50%;
     margin-bottom: 5px;
   }
   
@@ -578,7 +578,7 @@ font-family: 'Roboto Condensed', sans-serif;
   .my-footer  .footer img{
     width: 100px;
     height: 50px;
-    border-radius: 12px;
+    border-radius: 60%;
   }
   .my-footer .h6{
     text-align: center;
