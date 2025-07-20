@@ -1,7 +1,7 @@
 import sp from './images/icedCoffee.jpg';
 import a from './images/iceAm.jpg';
 import m from './images/IMatcha.jpg';
-import b from './images/blueSpanich.jpeg';
+// import b from './images/blueSpanich.jpeg';
 // import u from './images/ube.jpeg';
 import fm from './images/foamM.jpg';
 import li from './images/long island.jpeg';
@@ -50,13 +50,13 @@ const Coldcoffee = {
            image: sp,
            details: 'all prices include 5% VAT'
        },
-       {
-           id:  '4',
-           name: 'BLUE SPANISH LATTE',
-           price: '25.2',
-           image: b,
-           details: 'all prices include 5% VAT'
-       },
+    //    {
+    //        id:  '4',
+    //        name: 'BLUE SPANISH LATTE',
+    //        price: '25.2',
+    //        image: b,
+    //        details: 'all prices include 5% VAT'
+    //    },
        {
            id:  '5',
            name: 'ICE WHITE MOCHA',

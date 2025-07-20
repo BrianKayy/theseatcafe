@@ -94,20 +94,20 @@ const Dessert = {
            image: d,
            details: 'all prices include 5% VAT'
        },
-        {
-        id:  '2',
-        name: 'DATE COOKIE',
-        price: '12.6',
-        image: dc,
-        details: 'all prices include 5% VAT'
-    },
-    {
-        id:  '2',
-        name: 'PISTACHIO COOKIE',
-        price: '12.6',
-        image: pc,
-        details: 'all prices include 5% VAT'
-    },
+    //     {
+    //     id:  '2',
+    //     name: 'DATE COOKIE',
+    //     price: '12.6',
+    //     image: dc,
+    //     details: 'all prices include 5% VAT'
+    // },
+    // {
+    //     id:  '2',
+    //     name: 'PISTACHIO COOKIE',
+    //     price: '12.6',
+    //     image: pc,
+    //     details: 'all prices include 5% VAT'
+    // },
     //    {
     //     id:  '2',
     //     name: 'BROWNIES PEANUT',

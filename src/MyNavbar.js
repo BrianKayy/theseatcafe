@@ -19,7 +19,6 @@ const MyNavbar = () => {
       <NavLink to="/Frappe"   >FRAPPE</NavLink >
        <NavLink to="/WinterSpecials"  >DINNER</NavLink > 
        <NavLink to="/FilterCoffee"   >FILTER COFFEE</NavLink >
-      
       <NavLink  to="/New"   >GATHERING SPECIALS</NavLink >
      <NavLink to="/ColdDrinks"  >WATER</NavLink > 
     
