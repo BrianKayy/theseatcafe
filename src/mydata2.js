@@ -9,14 +9,14 @@ import se from './images/san sebasian.jpeg';
   import d from './images/kinder.jpeg';
 // import sc from './images/Smores cho.jpeg';
 // import sp from './images/sensebastian.jpg';
-import dc from './images/dateC.jpeg';
+// import dc from './images/dateC.jpeg';
 import ft from './images/frenchT.jpeg';
 import lft from './images/LotusFT.jpeg';
 import g from './images/granola.jpg';
 import gk from './images/greek frt.jpg';
 import nc from './images/newyorkC.jpeg';
 import cc from './images/cheesecake.jpeg';
-import pc from './images/pistachioCookie.jpeg';
+// import pc from './images/pistachioCookie.jpeg';
 import b from './images/banana.JPG';
 import pfc from './images/passion.JPG';
 const Dessert = {
