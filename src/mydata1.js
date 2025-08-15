@@ -6,6 +6,8 @@ import ff from './images/fries.jpeg';
 import hdc from './images/chicken hotdog.jpeg';
 import a from './images/arabiata.jpg';
 import p from './images/peneC.jpg';
+import c from './images/cabanora.jpeg';
+import cs from './images/chicken.jpeg';
 
 const Specials = {
      Special:[
@@ -30,6 +32,20 @@ const Specials = {
         //     image: mp,
         //     details: 'all prices include 5% VAT'
         // },
+                {
+            id:  '13',
+            name: 'CARBANORA PASTA',
+            price: '36.75',
+            image: c,
+            details: 'all prices include 5% VAT'
+        },
+        {
+            id:  '14',
+            name: 'CHICKEN PASTA WITH SPINACH',
+            price: '29.00',
+            image: cs,
+            details: 'all prices include 5% VAT'
+        },
         {
             id:  '12',
             name: 'FRIES',
@@ -66,6 +82,7 @@ const Specials = {
             image: a,
             details: 'all prices include 5% VAT'
         },
+        
     ]
 }
 

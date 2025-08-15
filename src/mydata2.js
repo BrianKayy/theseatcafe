@@ -48,7 +48,7 @@ const Dessert = {
         {
             id:  '2',
             name: 'BANANA PUDDING',
-            price: '36.75',
+            price: '28.00',
             image: b,
             details: 'all prices include 5% VAT'
         },
