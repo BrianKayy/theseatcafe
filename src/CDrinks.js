@@ -8,14 +8,14 @@ const Cdrink = {
        {
            id:  '1',
            name: 'VOSS STILL WATER',
-           price: '10.50',
+           price: '10.00',
            image: v,
            details: 'all prices include 5% VAT'
        },
        {
            id:  '2',
            name: 'SPARKLING WATER',
-           price: '7.15',
+           price: '7.00',
            image: w,
            details: 'all prices include 5% VAT'
        },

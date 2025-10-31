@@ -10,7 +10,7 @@ const MyNavbar = () => {
     <div className="bottom"  >
       <div className='new'  >
         <NavLink to="/Breakfast"    >BREAKFAST</NavLink >
-        <NavLink to="/Ice Cream">ICE CREAM</NavLink>
+        {/* <NavLink to="/Ice Cream">ICE CREAM</NavLink> */}
         <NavLink  to="/Tea"  >TEA</NavLink >
        <NavLink to="/Desserts"   >DESSERTS</NavLink > 
        <NavLink to="/HotCoffee"  >HOT COFFEE</NavLink >

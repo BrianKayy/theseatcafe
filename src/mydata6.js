@@ -10,28 +10,28 @@ const Juic  = {
        {
            id:  '1',
            name: 'HIBISCUS',
-           price: '17.85',
+           price: '18.00',
            image: h,
            details: 'all prices include 5% VAT'
        },
        {
            id:  '2',
            name: 'STRAWBERRY MOJITO',
-           price: '15.75',
+           price: '16.00',
            image: s,
            details: 'all prices include 5% VAT'
        },
        {
            id:  '3',
            name: 'BLUEBERRY MOJITO',
-           price: '15.75',
+           price: '16.00',
            image: b,
            details: 'all prices include 5% VAT'
        },
        {
            id:  '4',
            name: 'PASSION FRUIT MOJITO ',
-           price: '15.75',
+           price: '16.00',
            image: p,
            details: 'all prices include 5% VAT'
        },
@@ -53,7 +53,7 @@ const Juic  = {
     {
         id:  '7',
         name: 'FRESH ORANGE JUICE',
-        price: '16.8',
+        price: '17.00',
         image: o,
         details: 'all prices include 5% VAT'
     },

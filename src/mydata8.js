@@ -10,56 +10,56 @@ const Summer= {
        {
            id:  '1',
            name: 'HIBISCUS BOTTLE',
-           price: '73.5',
+           price: '73.00',
            image: s,
            details: 'all prices include 5% VAT'
        },
        {
            id:  '2',
            name: 'SPANISH LATTE BOTTLE',
-           price: '73.5',
+           price: '73.00',
            image: s,
            details: ''
        },
        {
            id:  '3',
            name: 'SUMMER COFFEE BOX ',
-           price: '99.75',
+           price: '100.00',
            image: c,
            details: 'all prices include 5% VAT'
        },
        {
            id:  '4',
            name: 'SUMMER MOJITO BOX',
-           price: '89.25',
+           price: '100.00',
            image: m,
            details: 'all prices include 5% VAT'
        },
        {
         id:  '4',
         name: 'COOKIE  BOX',
-        price: '105',
+        price: '120.00',
         image: ck,
         details: 'all prices include 5% VAT'
     },
        {
         id:  '4',
         name: 'SUMMER ACAI BOX',
-        price: '89.25',
+        price: '89.00',
         image: a,
         details: 'all prices include 5% VAT'
     },
     {
         id:  '5',
         name: 'PAVALOVA CAKE MEDIUM',
-        price: '110.25',
+        price: '110.00',
         image: pm,
         details: 'all prices include 5% VAT'
        },    
         {
         id:  '5',
         name: 'PAVALOVA CAKE LARGE',
-        price: '157.5',
+        price: '157.00',
         image: pl,
         details: 'all prices include 5% VAT'
        },

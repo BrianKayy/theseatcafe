@@ -1,49 +1,41 @@
 import hd from './images/hotdog.jpeg';
-// import ms from './images/mushroom.jpg';
-// import mp from './images/mag.jpg';
-// import pp from './images/pepperoni.jpg';
+import ms from './images/mushroom.jpg';
+import mp from './images/mag.jpg';
+import pp from './images/pepperoni.jpg';
 import ff from './images/fries.jpeg';
 import hdc from './images/chicken hotdog.jpeg';
 import a from './images/arabiata.jpg';
 import p from './images/peneC.jpg';
 import c from './images/cabanora.jpeg';
-import cs from './images/chicken.jpeg';
 
 const Specials = {
      Special:[
-        // {
-        //     id:  '16',
-        //     name: 'PEPPERONI PIZZA ',
-        //     price: '31.50',
-        //     image: pp,
-        //     details: 'all prices include 5% VAT'
-        // },
-        // {
-        //     id:  '17',
-        //     name: 'MUSHROOM PIZZA',
-        //     price: '32.55',
-        //     image: ms,
-        //     details: 'all prices include 5% VAT'
-        // },
-        // {
-        //     id:  '15',
-        //     name: 'MARGARITA PIZZA',
-        //     price: '29.40',
-        //     image: mp,
-        //     details: 'all prices include 5% VAT'
-        // },
-                {
-            id:  '13',
-            name: 'CARBANORA PASTA',
-            price: '36.75',
-            image: c,
+        {
+            id:  '16',
+            name: 'PEPPERONI PIZZA ',
+            price: '31.50',
+            image: pp,
             details: 'all prices include 5% VAT'
         },
         {
-            id:  '14',
-            name: 'CHICKEN PASTA WITH SPINACH',
-            price: '29.00',
-            image: cs,
+            id:  '17',
+            name: 'MUSHROOM PIZZA',
+            price: '32.55',
+            image: ms,
+            details: 'all prices include 5% VAT'
+        },
+        {
+            id:  '15',
+            name: 'MARGARITA PIZZA',
+            price: '29.40',
+            image: mp,
+            details: 'all prices include 5% VAT'
+        },
+                {
+            id:  '13',
+            name: 'CARBANORA PASTA',
+            price: '37.00',
+            image: c,
             details: 'all prices include 5% VAT'
         },
         {
@@ -71,14 +63,14 @@ const Specials = {
         {
             id:  '13',
             name: 'PENE CHICKEN(white sauce)',
-            price: '36.75',
+            price: '37.00',
             image: p,
             details: 'all prices include 5% VAT'
         },
         {
             id:  '14',
             name: 'PENE CHICKEN(red sauce)',
-            price: '36.75',
+            price: '37.00',
             image: a,
             details: 'all prices include 5% VAT'
         },

@@ -18,18 +18,11 @@ import nc from './images/newyorkC.jpeg';
 import cc from './images/cheesecake.jpeg';
 // import pc from './images/pistachioCookie.jpeg';
 import b from './images/banana.JPG';
-import pfc from './images/passion.JPG';
 const Dessert = {
     Desert:[
 
 
-         {
-            id:  '2',
-            name: 'PASSIONFRUIT CHEESECAKE',
-            price: '30.00',
-            image: pfc,
-            details: 'all prices include 5% VAT'
-        },
+    
 
         {
             id:  '2',
@@ -62,7 +55,7 @@ const Dessert = {
    {
        id:  '1',
        name: ' BROWNIE',
-       price: '24.15',
+       price: '24.00',
        image: c,
        details: 'all prices include 5% VAT'
    },
@@ -83,14 +76,14 @@ const Dessert = {
        {
         id:  '8',
         name: 'ACAI BOWL',
-        price: '28.35',
+        price: '28.00',
         image: a,
         details: 'all prices include 5% VAT'
     },
        {
            id:  '2',
            name: 'KINDER COOKIE',
-           price: '13.65',
+           price: '13.00',
            image: d,
            details: 'all prices include 5% VAT'
        },
@@ -140,7 +133,7 @@ const Dessert = {
        {
            id:  '5',
            name: 'PAVALOVA CAKE',
-           price: '22.05',
+           price: '24.00',
            image: p,
            details: 'all prices include 5% VAT'
        },
@@ -168,7 +161,7 @@ const Dessert = {
        {
            id:  '7',
            name: 'ROCKY ROAD',
-           price: '24.15',
+           price: '24.00',
            image: kr,
            details:'all prices include 5% VAT'
        },

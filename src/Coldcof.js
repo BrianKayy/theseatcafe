@@ -4,14 +4,14 @@ import m from './images/IMatcha.jpg';
 // import b from './images/blueSpanich.jpeg';
 // import u from './images/ube.jpeg';
 import fm from './images/foamM.jpg';
-import li from './images/long island.jpeg';
+// import li from './images/long island.jpeg';
 const Coldcoffee = {
     Coldc:[
 
         {
             id:  '6',
             name: 'FOAM MATCHA',
-            price: '29.4',
+            price: '29.00',
             image: fm,
             details: ''
         },
@@ -22,31 +22,31 @@ const Coldcoffee = {
         //     image: u,
         //     details: 'all prices include 5% VAT'
         // },
-        {
-            id:  '6',
-            name: 'LONG ISLAND',
-            price: '24.15',
-            image: li,
-            details: 'all prices include 5% VAT'
-        },
+        // {
+        //     id:  '6',
+        //     name: 'LONG ISLAND',
+        //     price: '24.00',
+        //     image: li,
+        //     details: 'all prices include 5% VAT'
+        // },
        {
            id:  '1',
            name: 'ICED AMERICANO',
-           price: '16.8',
+           price: '17.00',
            image: a,
            details: 'all prices include 5% VAT'
        },
        {
            id:  '2',
            name: 'ICED LATTE',
-           price: '17.85',
+           price: '18.00',
            image: sp,
            details: 'all prices include 5% VAT'
        },
        {
            id:  '3',
            name: 'Iced SPANISH LATTE',
-           price: '23.1',
+           price: '23.00',
            image: sp,
            details: 'all prices include 5% VAT'
        },
@@ -60,7 +60,7 @@ const Coldcoffee = {
        {
            id:  '5',
            name: 'ICE WHITE MOCHA',
-           price: '27.30',
+           price: '24.00',
            image: sp,
            details: 'all prices include 5% VAT'
        },
@@ -68,7 +68,7 @@ const Coldcoffee = {
        {
            id:  '6',
            name: 'ICED MATCHA LATTE',
-           price: '27.30',
+           price: '27.00',
            image: m,
            details: 'all prices include 5% VAT'
        },

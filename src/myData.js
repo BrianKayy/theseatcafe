@@ -8,7 +8,6 @@ import n from './images/Nuttella toast.jpeg';
 import p from './images/Peanut toast.jpeg';
 import s from './images/croissaint scrammbed.jpeg';
 import t from './images/toast.jpeg';
-
 import z from './images/zaatar.jpeg';
 import pc from './images/plain.jpg';
 import cc from './images/cheese.jpg';
@@ -20,42 +19,42 @@ const Bfast = {
         {
             id:  '18',
             name: ' PLAIN CROISSAINT',
-            price: '10.50',
+            price: '10.00',
             image: pc,
             details: 'all prices include 5% VAT'
         },
         {
             id:  '18',
             name: "ZA'ATAR CROISSAINT",
-            price: '10.50',
+            price: '10.00',
             image: z,
             details: 'all prices include 5% VAT'
         },
         {
             id:  '19',
             name: ' NUTTELLA CROISSANT',
-            price: '10.50',
+            price: '15.00',
             image: nc,
             details: 'all prices include 5% VAT'
         },
         {
             id:  '20',
             name: ' CHEESE CROISSAINT',
-            price: '10.50',
+            price: '10.00',
             image: cc,
             details: 'all prices include 5% VAT'
         },
         {
             id:  '21',
             name: 'PISTACHIO CROISSANT ',
-            price: '15.75',
+            price: '16.00',
             image: cp,
             details: 'all prices include 5% VAT'
         }, 
         {
             id:  '2',
             name: 'BROCHETTA',
-            price: '25.2',
+            price: '25.20',
             image: br,
             details: 'all prices include 5% VAT'
         },
@@ -70,7 +69,7 @@ const Bfast = {
         {
             id:  '9',
             name: 'SCRAMBLED-EGGS',
-            price: '27.3',
+            price: '27.30',
             image: s,
             details: 'all prices include 5% VAT'
         },
@@ -93,7 +92,7 @@ const Bfast = {
         {
             id:  '6',
             name: 'AVOCADO-TOAST',
-            price: '27.3',
+            price: '27.30',
             image: av,
             details: 'all prices include 5% VAT'
         },
@@ -110,14 +109,14 @@ const Bfast = {
         {
             id:  '7',
             name: 'NUTELLA-TOAST',
-            price: '23.1',
+            price: '23.10',
             image: n,
             details: 'all prices include 5% VAT'
         },
         {
             id:  '8',
             name: 'PEANUT-TOAST',
-            price: '23.1',
+            price: '23.10',
             image: p,
             details: 'all prices include 5% VAT'
         },
