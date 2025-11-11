@@ -16,11 +16,21 @@ import cp from './images/pistachioC.jpeg';
 
 const Bfast = {
      BreakFast:[
+       
         {
-            id:  '18',
-            name: ' PLAIN CROISSAINT',
-            price: '10.00',
-            image: pc,
+            id:  '6',
+            name: 'AVOCADO-TOAST',
+            price: '27.30',
+            image: av,
+            details: 'all prices include 5% VAT'
+        },
+       
+       
+        {
+            id:  '1',
+            name: 'MASHED-AVOCADO',
+            price: '32.55',
+            image: m,
             details: 'all prices include 5% VAT'
         },
         {
@@ -35,6 +45,13 @@ const Bfast = {
             name: ' NUTTELLA CROISSANT',
             price: '15.00',
             image: nc,
+            details: 'all prices include 5% VAT'
+        },
+         {
+            id:  '18',
+            name: ' PLAIN CROISSAINT',
+            price: '10.00',
+            image: pc,
             details: 'all prices include 5% VAT'
         },
         {
@@ -89,22 +106,7 @@ const Bfast = {
             news: 'ADD BACON + AED10.00',
             details: 'all prices include 5% VAT'
         },
-        {
-            id:  '6',
-            name: 'AVOCADO-TOAST',
-            price: '27.30',
-            image: av,
-            details: 'all prices include 5% VAT'
-        },
-       
-       
-        {
-            id:  '1',
-            name: 'MASHED-AVOCADO',
-            price: '32.55',
-            image: m,
-            details: 'all prices include 5% VAT'
-        },
+        
         
         {
             id:  '7',
