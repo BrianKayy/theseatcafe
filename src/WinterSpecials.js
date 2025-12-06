@@ -47,4 +47,4 @@ return( <div className="bfast">
   )
 }
 
-export default WinterSpecials
+export default WinterSpecials;

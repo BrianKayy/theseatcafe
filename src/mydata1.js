@@ -6,7 +6,7 @@ import ff from './images/fries.jpeg';
 import hdc from './images/chicken hotdog.jpeg';
 import a from './images/arabiata.jpg';
 import p from './images/peneC.jpg';
-import c from './images/cabanora.jpeg';
+import c from './images/cpasta.jpeg';
 
 const Specials = {
      Special:[
@@ -15,6 +15,20 @@ const Specials = {
             name: 'PEPPERONI PIZZA ',
             price: '31.50',
             image: pp,
+            details: 'all prices include 5% VAT'
+        },
+           {
+            id:  '13',
+            name: 'CARBANORA PASTA',
+            price: '37.00',
+            image: c,
+            details: 'all prices include 5% VAT'
+        },
+        {
+            id:  '14',
+            name: 'HOT DOG BEEF',
+            price: '29.40',
+            image: hd,
             details: 'all prices include 5% VAT'
         },
         {
@@ -31,13 +45,7 @@ const Specials = {
             image: mp,
             details: 'all prices include 5% VAT'
         },
-                {
-            id:  '13',
-            name: 'CARBANORA PASTA',
-            price: '37.00',
-            image: c,
-            details: 'all prices include 5% VAT'
-        },
+             
         {
             id:  '12',
             name: 'FRIES',
@@ -53,13 +61,7 @@ const Specials = {
             image: hdc,
             details: 'all prices include 5% VAT'
         },
-        {
-            id:  '14',
-            name: 'HOT DOG BEEF',
-            price: '29.40',
-            image: hd,
-            details: 'all prices include 5% VAT'
-        },
+        
         {
             id:  '13',
             name: 'PENE CHICKEN(white sauce)',
